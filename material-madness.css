@@ -1,0 +1,206 @@
+/*
+	name:				material madness
+	description:		just a bunch of CSS snippets, plus a color scheme.
+	version:			1.3.11
+	author:				blw#0001
+*/
+
+
+/* The actual color scheme */
+:root {
+  --background-primary: #232322;
+  --background-secondary: #212121;
+  --background-secondary-alt: #1b1b1b;
+  --background-tertiary: #1b1b1b;
+  --background-accent: #454545;
+  --background-modifier-hover: #252525;
+  --background-modifier-active: #232323;
+  --background-modifier-selected: #303030;
+  --scrollbar-thin-thumb: #313131;
+  --deprecated-card-bg: #1a1a1a63;
+  --deprecated-quickswitcher-input-background: #1b1b1b;
+  --channeltextarea-background: #303030;
+  --deprecated-store-bg: #303030;
+  --background-mobile-primary: #232322;
+  --background-mobile-secondary: #212121;
+  --activity-card-background: #212121;
+  --deprecated-card-editable-bg: rgba(48, 48, 48, 0.3);
+  --deprecated-text-input-border-disabled: #212121;
+  --text-link: #4b7179;
+  --text-normal: #d4d4d3;
+  --background-mentioned: rgba(250,166,26,0.05);
+}
+
+
+/* Fixes for components */
+.theme-dark .container-1D34oG {
+    background-color: var(--background-primary) !important;
+  }
+.theme-dark .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .theme-dark .embedFull-2tM8-- {
+  background-color: var(--background-modifier-selected) !important;
+}
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+  background-color: var(--background-secondary) !important;
+}
+.theme-dark .root-1gCeng {
+  background-color: var(--background-secondary) !important;
+}
+.theme-dark .footer-2gL1pp {
+  background-color: var(--background-modal-color) !important;
+}
+.theme-dark .message-2qRu38 {
+  background-color: var(--background-primary) !important;
+}
+.theme-dark .autocomplete-1vrmpx {
+  background-color: var(--background-secondary) !important;
+}
+
+/* Rounded Chat */
+.theme-dark .scrollableContainer-2NUZem {
+  border-radius: 30px !important;
+}
+.newMessagesBar-265mhP.barBase-1c2Rfb {
+    width: 400px;
+    border-radius: 20px;
+    top: 5px;
+    left: 5px;
+}
+.newMessagesBar-265mhP.barBase-1c2Rfb .barButtonAlt-mYL1lj.barButtonBase-2uLO1z {
+    width: auto;
+}
+.jumpToPresentBar-G1R9s6.barBase-1c2Rfb {
+    width: 400px;
+    top: 5px;
+    bottom: auto;
+    right: 16px;
+    left: auto;
+    border-radius: 20px;
+}
+.jumpToPresentBar-G1R9s6.barBase-1c2Rfb .barButtonAlt-mYL1lj.barButtonBase-2uLO1z {
+    width: auto;
+}
+
+
+/* Remove Invite from User Context Menu */
+.item-1tOPte {
+    margin: 0;
+}
+#user-context-invite-to-server {
+    display: none;
+}
+
+
+/* White Connection Icons */
+.connectedAccountIcon-3P3V6F[alt*="Battle.net"] {
+  content: url("/assets/3a257c4cab129e956b05bd50047eb0f9.png");
+}
+.connectedAccountIcon-3P3V6F[alt*="Facebook"] {
+  content: url("/assets/c926e69c482dac25b8e940db74496813.png");
+}
+.connectedAccountIcon-3P3V6F[alt*="GitHub"] {
+  content: url("/assets/9e2893717851c493b4bff518f8b63ee7.png");
+}
+.connectedAccountIcon-3P3V6F[alt*="League of Legends"] {
+  content: url("/assets/fbbd224a0d94747c102515090682bbe1.png");
+}
+.connectedAccountIcon-3P3V6F[alt*="Reddit"] {
+  content: url("/assets/bcc7bc0c0b27f9cbadaa1a47ea79db22.png");
+}
+.connectedAccountIcon-3P3V6F[alt*="Spotify"] {
+  content: url("/assets/fe3770614c2658a07dea3ecb286ce745.png");
+}
+.connectedAccountIcon-3P3V6F[alt*="Skype"] {
+  content: url("/assets/de5fb9e860729912c65048c1c657e1a3.png");
+}
+.connectedAccountIcon-3P3V6F[alt*="Steam"] {
+  content: url("/assets/baf4bdd36b7ef74e8f34b402e66f81f4.png");
+}
+.connectedAccountIcon-3P3V6F[alt*="Twitch"] {
+  content: url("/assets/4c1bab3f945269a5c1be0b3a2c177141.png");
+}
+.connectedAccountIcon-3P3V6F[alt*="Twitter"] {
+  content: url("/assets/2ac50d286a1c883f28b5149239a8ad36.png");
+}
+.connectedAccountIcon-3P3V6F[alt*="YouTube"] {
+  content: url("/assets/0ef81742942677bcef0bebdfb7061d29.png");
+}
+.connectedAccountIcon-3P3V6F[alt*="Xbox Live"] {
+  content: url("/assets/850ed4fcf5839b7a32651f5959e8511e.png");
+}
+
+
+/* Better CodeMirror */
+.powercord-quickcss .CodeMirror-gutters {
+  border-right: none;
+}
+.powercord-quickcss .CodeMirror-activeline {
+  background-color: var(--background-tertiary);
+}
+.powercord-quickcss > .powercord-quickcss-editor {
+  background-color: var(--background-secondary);
+}
+
+
+/* Actually better join server tab */
+.theme-light .root-1gCeng {
+  background-color: #232322 !important;
+}
+.theme-light .footer-2gL1pp {
+  background-color: #232322;
+  border-color: rgba(0, 0, 0);
+  box-shadow: none;
+}
+.templatesList-2E6rTe {
+  height: 335px;
+}
+div[class*="colorHeaderSecondary-3Sp3Ft size16-1P40sf subtitle-Nw1LLR"],
+div[class*="colorHeaderSecondary-3Sp3Ft size12-3cLvbJ optionHeader-1-5lcp"],
+div[class*="colorHeaderSecondary-3Sp3Ft size16-1P40sf subtitle-1Q3BuX"],
+div[class*="colorHeaderSecondary-3Sp3Ft size14-e6ZScH skip-2o6MGG"],
+div[class*="colorHeaderSecondary-3Sp3Ft size16-1P40sf subtitle-1KdHaN"],
+div[class*="colorHeaderSecondary-3Sp3Ft size14-e6ZScH"],
+div[class*="colorMuted-HdFt4q size12-3cLvbJ guidelines-1NSoht"],
+h5[class*="colorStandard-2KCXvj size14-e6ZScH h5-18_1nd title-3sZWYQ formTitle-aeXUoN"], 
+h5[class*="colorStandard-2KCXvj size14-e6ZScH h5-18_1nd title-3sZWYQ defaultMarginh5-2mL-bP"] {
+  color: white;
+}
+.container-UC8Ug1 {
+  background-color: #282828;
+  margin-bottom: 8px;
+}
+.container-UC8Ug1:hover {
+  background-color: var(--indicator-hovered);
+}
+.container-UC8Ug1:active {
+  background-color: #2F3136;
+}
+.base-1x0h_U,
+.colorStandard-2KCXvj {
+  color: white;
+}
+.footerButton-ayFTfX.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.sizeMedium-1AC_Sl.grow-q77ONN {
+  background-color: var(--brand-experiment);
+  color: #fff;
+}
+.sampleLink-2NLvZg {
+  color:gray;
+}
+button[class*="backButton-iA7KIs button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x grow-q77ONN"], 
+button[class*="button-38aScr lookLink-9FtZy- lowSaturationUnderline-3svVxy colorPrimary-3b3xI6 sizeMin-1mJd1x grow-q77ONN"], 
+button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x grow-q77ONN"], 
+.theme-light .lookLink-9FtZy-.colorPrimary-3b3xI6,
+.anchor-3Z-8Bb {
+  color: var(--brand-experiment);
+}
+.input--jS-j2 {
+	background-color: #232322;
+}
+.rowContainer-3AFY0S {
+	background-color: #232322;
+}
+
+
+/* Better Settings Search Icon Fix */
+.searchdiv .settingsicon {
+  height: 14.9px;
+}
