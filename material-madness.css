@@ -35,7 +35,7 @@
 /* Fixes for components */
 .theme-dark .container-1D34oG {
     background-color: var(--background-primary) !important;
-  }
+}
 .theme-dark .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK), .theme-dark .embedFull-2tM8-- {
   background-color: var(--background-modifier-selected) !important;
 }
