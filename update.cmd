@@ -1,3 +1,4 @@
+@echo off
 rem just an auto-update thing cuz i'm lazy
 
 git add --all
