@@ -1,7 +1,7 @@
 /*
 	name:				Material Madness
 	description:		just a bunch of CSS snippets, plus a color scheme. for powercord.
-	version:			1.3.11
+	version:			1.3.12
 	author:				blw#0001
 */
 
@@ -203,4 +203,17 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
 /* Better Settings Search Icon Fix */
 .searchdiv .settingsicon {
   height: 14.9px;
+}
+
+/* Modal fixes (for user notes & birthdays) */
+.theme-dark .modal-yWgWj- {
+	background-color: var(--background-secondary);
+}
+
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker {
+	background-color: var(--background-secondary);
+}
+
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {
+	background-color: var(--background-secondary);
 }
