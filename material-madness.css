@@ -1,7 +1,7 @@
 /*
 	name:				Material Madness
 	description:		just a bunch of CSS snippets, plus a color scheme. for powercord.
-	version:			1.3.12
+	version:			1.4.0
 	author:				blw#0001
 */
 
@@ -216,4 +216,54 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
 
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {
 	background-color: var(--background-secondary);
+}
+
+/* Third-Party CSS Snippets */
+
+/* Horizontally listed media (by: Freeplay#5676) */
+[id*="message-accessories-"] {
+    display: flex;
+    flex-wrap: wrap;
+}
+[id*="message-accessories-"] > * {
+    margin-right: .4em !important;
+    min-height: 100% !important;
+}
+[id*="message-accessories-"] > div > a {
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    background-color: var(--background-secondary);
+}
+[id*="message-reactions"] {
+    width: 100%;
+}
+
+/* Username Background (Cozy variant) (by: chloe.#9079) */
+.cozy-3raOZG .headerText-3Uvj1Y > span::before {
+  content: ''; 
+  width: calc(100% + 7px); 
+  height: 100%;
+  border-radius: 5px;
+  background-color: currentColor; 
+  opacity: 0.3; 
+  position: absolute; 
+  top: 0; 
+  z-index: -1;
+  /* repairs left shift*/
+  left: -3px;
+}
+.cozy-3raOZG .headerText-3Uvj1Y > span::after {
+  content: ":";
+}
+/* repairs left shift */
+.cozy-3raOZG .headerText-3Uvj1Y > span {
+  margin-left: 3px;
+}
+
+/* Consistent PC Settings Titles (by: akisblack#6148) */
+.contentColumnDefault-1VQkGM > div > :nth-child(1) {
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: none;
 }
