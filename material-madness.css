@@ -1,7 +1,7 @@
 /*
 	name:				Material Madness
 	description:		just a bunch of CSS snippets, plus a color scheme. for powercord.
-	version:			1.4.0.2
+	version:			1.4.1.0
 	author:				blw#0001
 */
 
@@ -55,9 +55,9 @@
   background-color: var(--background-secondary) !important;
 }
 
-/* Rounded Chat */
-.theme-dark .scrollableContainer-2NUZem {
-  border-radius: 30px !important;
+/* Rounded Chat & Buttons */
+.theme-dark .scrollableContainer-15eg7h {
+  border-radius: 30px;
 }
 .newMessagesBar-265mhP.barBase-1c2Rfb {
     width: 400px;
@@ -80,6 +80,13 @@
     width: auto;
 }
 
+/* Consistent Colored Send Icon */
+.sendIcon-1HcEzu {
+	color: var(--interactive-normal);
+}
+.theme-dark .button-y6hemj:focus-within .activeButtonChild-2hgLAO, .theme-dark .button-y6hemj:focus .activeButtonChild-2hgLAO, .theme-dark .button-y6hemj:hover .activeButtonChild-2hgLAO {
+	color: var(--interactive-active);
+}
 
 /* Remove Invite from User Context Menu */
 .item-1tOPte {
