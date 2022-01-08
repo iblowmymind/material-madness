@@ -218,6 +218,11 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
 	background-color: var(--background-secondary);
 }
 
+/* Fixes for the new discord CSS classes update */
+.tabBody-2dgbAs {
+	background-color: var(--background-primary);
+}
+
 /* Third-Party CSS Snippets */
 
 /* Horizontally listed media (by: Freeplay#5676) */
