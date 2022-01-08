@@ -87,6 +87,9 @@
 .theme-dark .button-y6hemj:focus-within .activeButtonChild-2hgLAO, .theme-dark .button-y6hemj:focus .activeButtonChild-2hgLAO, .theme-dark .button-y6hemj:hover .activeButtonChild-2hgLAO {
 	color: var(--interactive-active);
 }
+.sendIcon-1HcEzu:hover {
+	color: var(--interactive-active);
+}
 
 /* Remove Invite from User Context Menu */
 .item-1tOPte {
