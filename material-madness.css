@@ -99,7 +99,6 @@
     display: none;
 }
 
-
 /* White Connection Icons */
 .connectedAccountIcon-3P3V6F[alt*="Battle.net"] {
   content: url("/assets/3a257c4cab129e956b05bd50047eb0f9.png");
@@ -149,7 +148,6 @@
 .powercord-quickcss > .powercord-quickcss-editor {
   background-color: var(--background-secondary);
 }
-
 
 /* Actually better join server tab */
 .theme-light .root-1gCeng {
@@ -211,9 +209,10 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
 
 
 /* Better Settings Search Icon Fix */
+/* (Not needed anymore?)
 .searchdiv .settingsicon {
   height: 14.9px;
-}
+} */
 
 /* Modal fixes (for user notes & birthdays) */
 .theme-dark .modal-yWgWj- {
@@ -291,3 +290,16 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
     line-height: 24px;
     text-transform: none;
 }
+
+/* No Whole-width Codeblocks (by: Neppkun#0030) */
+.markup-eYLPri code {
+  width: fit-content;
+}
+.vpc-shiki {
+  width: fit-content;
+}
+pre.vpc-shiki {
+  width: fit-content;
+}
+
+/* END OF FILE */
