@@ -18,6 +18,11 @@ Made for [Powercord](https://powercord.dev).
 
 ## Changelog
 
+- 1.4.1.1 (12/1/2022)
+```text
+* Added a snippet, changes to some parts
+```
+
 - 1.4.1.0 (8/1/2022)
 ```text
 * Fixes to the CSS changes
