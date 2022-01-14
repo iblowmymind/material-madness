@@ -45,7 +45,12 @@
   background-color: var(--background-secondary) !important;
 }
 
+/* old?
 .theme-dark .root-1gCeng {
+  background-color: var(--background-secondary) !important;
+} */
+
+.theme-dark .root-g14mjS {
   background-color: var(--background-secondary) !important;
 }
 
