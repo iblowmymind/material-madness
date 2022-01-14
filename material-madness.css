@@ -54,7 +54,7 @@
   background-color: var(--background-secondary) !important;
 }
 
-.theme-dark .footer-2gL1pp {
+.theme-dark .footer-31IekZ {
   background-color: var(--background-modal-color) !important;
 }
 
@@ -188,7 +188,7 @@
   background-color: #232322 !important;
 }
 
-.theme-light .footer-2gL1pp {
+.theme-light .footer-31IekZ {
   background-color: #232322;
   border-color: rgba(0, 0, 0);
   box-shadow: none;
@@ -198,15 +198,16 @@
   height: 335px;
 }
 
-div[class*="colorHeaderSecondary-g5teka size16-1P40sf subtitle-Nw1LLR"],
+div[class*="colorHeaderSecondary-g5teka size16-rrJ6ag subtitle-3m-md1"],
 div[class*="colorHeaderSecondary-g5teka size12-oc4dx4 optionHeader-27AHfD"],
-div[class*="colorHeaderSecondary-g5teka size16-1P40sf subtitle-1Q3BuX"],
+div[class*="colorHeaderSecondary-g5teka size16-rrJ6ag subtitle-1Q3BuX"],
 div[class*="colorHeaderSecondary-g5teka size14-e6ZScH skip-2o6MGG"],
-div[class*="colorHeaderSecondary-g5teka size16-1P40sf subtitle-1KdHaN"],
+div[class*="colorHeaderSecondary-g5teka size16-rrJ6ag subtitle-1KdHaN"],
 div[class*="colorHeaderSecondary-g5teka size14-e6ZScH"],
 div[class*="colorMuted-HdFt4q size12-oc4dx4 guidelines-1NSoht"],
-h5[class*="colorStandard-2KCXvj size14-e6ZScH h5-18_1nd title-3sZWYQ formTitle-aeXUoN"],
-h5[class*="colorStandard-2KCXvj size14-e6ZScH h5-18_1nd title-3sZWYQ defaultMarginh5-2mL-bP"] {
+div[class*="colorStandard-21JIj7 size16-rrJ6ag text-PdAsFQ"],
+h5[class*="colorStandard-21JIj7 size14-e6ZScH h5-18_1nd title-3sZWYQ formTitle-aeXUoN"],
+h5[class*="colorStandard-21JIj7 size14-e6ZScH h5-18_1nd title-3sZWYQ defaultMarginh5-2mL-bP"] {
   color: white;
 }
 
@@ -224,11 +225,12 @@ h5[class*="colorStandard-2KCXvj size14-e6ZScH h5-18_1nd title-3sZWYQ defaultMarg
 }
 
 .base-1x0h_U,
-.colorStandard-2KCXvj {
+.colorStandard-21JIj7 {
   color: white;
 }
 
-.footerButton-ayFTfX.button-38aScr.lookFilled-1Gx00P.colorGrey-2DXtkV.sizeMedium-1AC_Sl.grow-q77ONN {
+.footerButton-24QPis.button-f2h6uQ.lookFilled-yCfaCM.colorGrey-2iAG-B.sizeMedium-2bFIHr.grow-2sR_-F {
+  background: linear-gradient(var(--gradient-blurple));
   background-color: var(--brand-experiment);
   color: #fff;
 }
