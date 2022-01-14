@@ -10,6 +10,10 @@ Made for [Powercord](https://powercord.dev).
 - some other tiny snippets
 - yeah that's basically it
 
+## Recommended Themes Alongside This One
+
+- [GradientButtons v2](https://github.com/Discord-Theme-Addons/gradientbuttons-v2)
+
 ## How to Install
 
 - Enter your powercord themes folder.
@@ -17,6 +21,12 @@ Made for [Powercord](https://powercord.dev).
 - Voila!
 
 ## Changelog
+
+- 1.4.2.1 (14/1/2022)
+
+  ```text
+  > Fixes
+  ```
 
 - 1.4.2.0 (13/1/2022)
   
