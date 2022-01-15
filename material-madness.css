@@ -1,7 +1,7 @@
 /*
 	name:				Material Madness
 	description:		just a bunch of CSS snippets, plus a color scheme. for powercord.
-	version:			1.4.2.1
+	version:			1.4.3.0
 	author:				blw#9687
 */
 
@@ -387,7 +387,7 @@ pre.vpc-shiki {
   font-family: dash2space, var(--font-primary);
 }
 
-/* Teardrop Messages (by: Freeplay#5676) */
+/* Teardrop Messages 1.10 (by: Freeplay#5676, modified) */
 :root {
     --background-message-hover: transparent;
 }
