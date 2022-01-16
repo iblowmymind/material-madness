@@ -265,7 +265,7 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
   height: 14.9px;
 }
 
-/* Modal fixes (for user notes & birthdays) */
+/* Modal fixes (for user notes & birthdays, etc.) */
 .theme-dark .modal-yWgWj- {
   background-color: var(--background-secondary);
 }
@@ -293,6 +293,10 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
 
 .theme-dark .spoilerText-27bIiA.hidden-3B-Rum:hover {
   background-color: rgba(18, 22, 24, 0.8);
+}
+
+.theme-dark .message-G6O-Wv {
+	background-color: var(--background-primary);
 }
 
 /* Third-Party CSS Snippets */
