@@ -1,0 +1,555 @@
+/*
+	name:				Material Madness
+	description:		just a bunch of CSS snippets, plus a color scheme. for powercord.
+	version:			1.4.3.0
+	author:				blw#9687
+*/
+
+/* The actual color scheme */
+:root {
+  --background-primary: #232322;
+  --background-secondary: #212121;
+  --background-secondary-alt: #1b1b1b;
+  --background-tertiary: #1b1b1b;
+  --background-accent: #454545;
+  --background-modifier-hover: #252525;
+  --background-modifier-active: #232323;
+  --background-modifier-selected: #303030;
+  --scrollbar-thin-thumb: #313131;
+  --deprecated-card-bg: #1a1a1a63;
+  --deprecated-quickswitcher-input-background: #1b1b1b;
+  --channeltextarea-background: #303030;
+  --deprecated-store-bg: #303030;
+  --background-mobile-primary: #232322;
+  --background-mobile-secondary: #212121;
+  --activity-card-background: #212121;
+  --deprecated-card-editable-bg: rgba(48, 48, 48, 0.3);
+  --deprecated-text-input-border-disabled: #212121;
+  --text-link: #4b7179;
+  --text-normal: #d4d4d3;
+  --background-mentioned: rgba(250, 166, 26, 0.05);
+}
+
+/* Fixes for components */
+.theme-dark .container-1D34oG {
+  background-color: var(--background-primary) !important;
+}
+
+.theme-dark .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK),
+.theme-dark .embedFull-2tM8-- {
+  background-color: var(--background-modifier-selected) !important;
+}
+
+.theme-dark .body-3iLsc4,
+.theme-dark .footer-1fjuF6 {
+  background-color: var(--background-secondary) !important;
+}
+
+/* old?
+.theme-dark .root-1gCeng {
+  background-color: var(--background-secondary) !important;
+} */
+
+.theme-dark .root-g14mjS {
+  background-color: var(--background-secondary) !important;
+}
+
+.theme-dark .footer-31IekZ {
+  background-color: var(--background-modal-color) !important;
+}
+
+.theme-dark .message-2qRu38 {
+  background-color: var(--background-primary) !important;
+}
+
+.theme-dark .autocomplete-3NRXG8 {
+  background-color: var(--background-tertiary) !important;
+}
+
+/* Rounded Chat & Buttons */
+.theme-dark .scrollableContainer-15eg7h {
+  border-radius: 30px;
+}
+
+.newMessagesBar-1hF-9G.barBase-3xxDXu {
+  width: 400px;
+  border-radius: 20px;
+  top: 5px;
+  left: 5px;
+}
+
+.newMessagesBar-1hF-9G.barBase-3xxDXu
+  .barButtonAlt-mYL1lj.barButtonBase-2uLO1z {
+  width: auto;
+}
+
+.jumpToPresentBar-1cEnH0.barBase-3xxDXu {
+  width: 400px;
+  top: 5px;
+  bottom: auto;
+  right: 16px;
+  left: auto;
+  border-radius: 20px;
+}
+
+.jumpToPresentBar-1cEnH0.barBase-3xxDXu
+  .barButtonAlt-mYL1lj.barButtonBase-2uLO1z {
+  width: auto;
+}
+
+/* Consistent Colored Send Icon */
+.sendIcon-1HcEzu {
+  color: var(--interactive-normal);
+}
+
+.theme-dark .button-y6hemj:focus-within .activeButtonChild-2hgLAO,
+.theme-dark .button-y6hemj:focus .activeButtonChild-2hgLAO,
+.theme-dark .button-y6hemj:hover .activeButtonChild-2hgLAO {
+  color: var(--interactive-active);
+}
+
+.sendIcon-1HcEzu:hover {
+  color: var(--interactive-active);
+}
+
+/* Remove Invite from User Context Menu */
+.item-1tOPte {
+  margin: 0;
+}
+
+#user-context-invite-to-server {
+  display: none;
+}
+
+/* White Connection Icons */
+.connectedAccountIcon-2vls0t[alt*="Battle.net"] {
+  content: url("/assets/3a257c4cab129e956b05bd50047eb0f9.png");
+}
+
+.connectedAccountIcon-2vls0t[alt*="Facebook"] {
+  content: url("/assets/c926e69c482dac25b8e940db74496813.png");
+}
+
+.connectedAccountIcon-2vls0t[alt*="GitHub"] {
+  content: url("/assets/9e2893717851c493b4bff518f8b63ee7.png");
+}
+
+.connectedAccountIcon-2vls0t[alt*="League of Legends"] {
+  content: url("/assets/fbbd224a0d94747c102515090682bbe1.png");
+}
+
+.connectedAccountIcon-2vls0t[alt*="Reddit"] {
+  content: url("/assets/bcc7bc0c0b27f9cbadaa1a47ea79db22.png");
+}
+
+.connectedAccountIcon-2vls0t[alt*="Spotify"] {
+  content: url("/assets/fe3770614c2658a07dea3ecb286ce745.png");
+}
+
+.connectedAccountIcon-2vls0t[alt*="Skype"] {
+  content: url("/assets/de5fb9e860729912c65048c1c657e1a3.png");
+}
+
+.connectedAccountIcon-2vls0t[alt*="Steam"] {
+  content: url("/assets/baf4bdd36b7ef74e8f34b402e66f81f4.png");
+}
+
+.connectedAccountIcon-2vls0t[alt*="Twitch"] {
+  content: url("/assets/4c1bab3f945269a5c1be0b3a2c177141.png");
+}
+
+.connectedAccountIcon-2vls0t[alt*="Twitter"] {
+  content: url("/assets/2ac50d286a1c883f28b5149239a8ad36.png");
+}
+
+.connectedAccountIcon-2vls0t[alt*="YouTube"] {
+  content: url("/assets/0ef81742942677bcef0bebdfb7061d29.png");
+}
+
+.connectedAccountIcon-2vls0t[alt*="Xbox Live"] {
+  content: url("/assets/850ed4fcf5839b7a32651f5959e8511e.png");
+}
+
+/* Better CodeMirror */
+.powercord-quickcss .CodeMirror-gutters {
+  border-right: none;
+}
+
+.powercord-quickcss .CodeMirror-activeline {
+  background-color: var(--background-tertiary);
+}
+
+.powercord-quickcss > .powercord-quickcss-editor {
+  background-color: var(--background-secondary);
+}
+
+/* Actually better join server tab */
+.theme-light .root-g14mjS {
+  background-color: #232322 !important;
+}
+
+.theme-light .footer-31IekZ {
+  background-color: #232322;
+  border-color: rgba(0, 0, 0);
+  box-shadow: none;
+}
+
+.templatesList-uohY49 {
+  height: 335px;
+}
+
+div[class*="colorHeaderSecondary-g5teka size16-rrJ6ag subtitle-3m-md1"],
+div[class*="colorHeaderSecondary-g5teka size12-oc4dx4 optionHeader-27AHfD"],
+div[class*="colorHeaderSecondary-g5teka size16-rrJ6ag subtitle-1Q3BuX"],
+div[class*="colorHeaderSecondary-g5teka size14-e6ZScH skip-2o6MGG"],
+div[class*="colorHeaderSecondary-g5teka size16-rrJ6ag subtitle-1KdHaN"],
+div[class*="colorHeaderSecondary-g5teka size14-e6ZScH"],
+div[class*="colorHeaderSecondary-g5teka size14-3fJ-ot"],
+div[class*="colorMuted-HdFt4q size12-oc4dx4 guidelines-1NSoht"],
+div[class*="colorStandard-21JIj7 size16-rrJ6ag text-PdAsFQ"],
+h5[class*="colorStandard-21JIj7 size14-e6ZScH h5-18_1nd title-3sZWYQ formTitle-aeXUoN"],
+h3[class*="title-1_TkpU fontDisplay-3Gtuks base-21yXnu size24-17l95E"],
+h3[class*="rowText-3MQqQi fontDisplay-3Gtuks base-21yXnu size16-rrJ6ag"],
+h3[class*="title-1LqMUp fontDisplay-3Gtuks base-21yXnu size24-17l95E"],
+h3[class*="footerTitle-3Bslxi fontDisplay-3Gtuks base-21yXnu size20-9iTTnl"],
+h5[class*="colorStandard-21JIj7 size14-e6ZScH h5-18_1nd title-3sZWYQ defaultMarginh5-2mL-bP"] {
+  color: white;
+}
+
+.container-x8Y1ix {
+  background-color: #282828;
+  margin-bottom: 8px;
+}
+
+.container-x8Y1ix:hover {
+  background-color: var(--indicator-hovered);
+}
+
+.container-x8Y1ix:active {
+  background-color: #2f3136;
+}
+
+.base-1x0h_U,
+.colorStandard-21JIj7 {
+  color: white;
+}
+
+.footerButton-24QPis.button-f2h6uQ.lookFilled-yCfaCM.colorGrey-2iAG-B.sizeMedium-2bFIHr.grow-2sR_-F {
+  background: linear-gradient(var(--gradient-blurple));
+  background-color: var(--brand-experiment);
+  color: #fff;
+}
+
+.sampleLink-5BWNy9 {
+  color: gray;
+}
+
+button[class*="backButton-iA7KIs button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x grow-q77ONN"],
+button[class*="button-38aScr lookLink-9FtZy- lowSaturationUnderline-3svVxy colorPrimary-3b3xI6 sizeMin-1mJd1x grow-q77ONN"],
+button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x grow-q77ONN"],
+.theme-light .lookLink-15mFoz.colorPrimary-2AuQVo,
+.anchor-3Z-8Bb {
+  color: var(--brand-experiment);
+}
+
+.input-m1-Y7Q {
+  background-color: #232322;
+}
+
+.rowContainer-3t7486 {
+  background-color: #232322;
+}
+
+/* Better Settings Search Icon Fix */
+.searchdiv .settingsicon {
+  height: 14.9px;
+}
+
+/* Modal fixes (for user notes & birthdays, etc.) */
+.theme-dark .modal-yWgWj- {
+  background-color: var(--background-secondary);
+}
+
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker {
+  background-color: var(--background-secondary);
+}
+
+.theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {
+  background-color: var(--background-secondary);
+}
+
+/* Fixes for the new discord CSS classes update */
+.tabBody-2dgbAs {
+  background-color: var(--background-primary);
+}
+
+.theme-dark .selected-3H3-RC {
+  background-color: var(--background-modifier-hover);
+}
+
+.theme-dark .spoilerText-27bIiA.hidden-3B-Rum {
+  background-color: var(--background-tertiary);
+}
+
+.theme-dark .spoilerText-27bIiA.hidden-3B-Rum:hover {
+  background-color: rgba(18, 22, 24, 0.8);
+}
+
+.theme-dark .message-G6O-Wv {
+	background-color: var(--background-primary);
+}
+
+/* Third-Party CSS Snippets */
+
+/* Horizontally listed media (by: Freeplay#5676) */
+[id*="message-accessories-"] {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+[id*="message-accessories-"] > * {
+  margin-right: 0.4em !important;
+  min-height: 100% !important;
+}
+
+[id*="message-accessories-"] > div > a {
+  display: flex;
+  align-items: center;
+  min-height: 100%;
+  background-color: var(--background-secondary);
+}
+
+[id*="message-reactions"] {
+  width: 100%;
+}
+
+/* Username Background (Cozy variant) (by: chloe.#9079, modified to remove the :after: that included the ":") */
+.cozy-VmLDNB .headerText-2z4IhQ > span::before {
+  content: "";
+  width: calc(100% + 7px);
+  height: 100%;
+  border-radius: 5px;
+  background-color: #484849;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  /* repairs left shift*/
+  left: -3px;
+}
+
+/* repairs left shift */
+.cozy-VmLDNB .headerText-2z4IhQ > span {
+  margin-left: 3px;
+}
+
+/* Consistent PC Settings Titles (by: akisblack#6148) */
+.contentColumnDefault-1VQkGM > div > :nth-child(1) {
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: none;
+}
+
+/* No Whole-width Codeblocks (by: Neppkun#0030) */
+.markup-eYLPri code {
+  width: fit-content;
+}
+
+.vpc-shiki {
+  width: fit-content;
+}
+
+pre.vpc-shiki {
+  width: fit-content;
+}
+
+/* Dash2Space (by: Kweeme | 🍮#5748, originally Slddev/ModernX-Theme, modified to remove capitalization) */
+@font-face {
+  font-family: dash2space;
+  unicode-range: U+002D;
+  src: url(https://smarty6788.github.io/Dash2Space/src/font/dash2space.ttf)
+      format("truetype"),
+    url(https://smarty6788.github.io/Dash2Space/font/dash2space.woff2)
+      format("woff2");
+}
+
+#app-mount
+  [data-list-item-id*="channels___upcoming-events-"]
+  > div.name-28HaxV {
+  font-size: 14px;
+  font-family: dash2space, var(--font-primary);
+}
+
+.autocompleteRowVertical-EA9dCg[data-list-item-id*="channel-autocomplete"]
+  .autocompleteRowContentPrimary-1kUW9H
+  .colorInteractiveActive-30E9n8,
+.content-2a4AW9 .emptyChannelIcon-1YdEz2 ~ .size32-5yOQel,
+.quickswitcher-pKcM9U .result-u66Ywh .match-20K5f5,
+.sidebar-1tnWFu .mainContent-20q_Hp[href] .channelName-3KPsGw,
+.title-31SJ6t .iconWrapper-2awDjA + .title-17SveM,
+.wrapper-1ZcZW-[class="wrapper-1ZcZW- mention interactive"] {
+  font-family: dash2space, var(--font-primary);
+}
+
+/* Teardrop Messages 1.10 (by: Freeplay#5676, modified) */
+:root {
+    --background-message-hover: transparent;
+}
+.cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB), .embedFull-1HGV2S, .wrapper-1HIH0j,
+.message-2CShn3 .imageWrapper-oMkQl4,
+.cozy-VmLDNB .repliedMessage-3Z6XBG {
+    background-color: var(--background-secondary);
+    font-weight: 500;
+    margin-left: 0 !important;
+    margin-top: 4px !important;
+    padding-left: 0 !important;
+    padding: 8px 12px !important;
+    border-radius: 16px;
+    border-top-left-radius: 0 !important;
+    width: max-content;
+    max-width: 80%;
+    box-shadow: var(--elevation-low);
+    overflow: visible !important;
+    box-sizing: border-box;
+}
+.container-rr3Ruk {
+    border-radius: 16px !important;
+    border-top-left-radius: 0 !important;
+    overflow: hidden;
+}
+.container-rr3Ruk > div {
+    border: none !important;
+}
+.container-rr3Ruk code {
+    padding: 10px !important;
+    background-color: var(--background-primary);
+    border: 1px solid var(--background-tertiary);
+    border-top-right-radius: 16px;
+}
+.theme-dark .container-rr3Ruk code {
+    background-color: var(--background-tertiary);
+}
+.message-2CShn3 .imageWrapper-oMkQl4 {
+    padding: 0 !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+}
+.embedGalleryImagesWrapper-3BWvNM {
+    overflow: hidden;
+    border-radius: 16px;
+    border-top-left-radius: 0;
+    margin-top: 20px;
+}
+.embedGalleryImagesWrapper-3BWvNM .imageWrapper-oMkQl4 {
+    border-radius: 0 !important;
+}
+.embedGallerySide-3zsYpc {
+    margin-top: -4px;
+}
+.cozy-VmLDNB.message-2CShn3:hover .messageContent-2t3eCI, .message-2CShn3:hover .embedFull-1HGV2S, .cozy-VmLDNB .message-2CShn3:hover .wrapper-1HIH0j,
+.message-2CShn3:hover .imageWrapper-oMkQl4,
+.message-2CShn3:hover .container-rr3Ruk {
+    box-shadow: var(--elevation-medium) !important;
+}
+.cozy-VmLDNB.systemMessage-1H1Z20 .messageContent-2t3eCI {
+    border-top-left-radius: 16px !important;
+}
+.cozy-VmLDNB .blockquoteContainer-3VtvI1 blockquote {
+    box-sizing: content-box !important;
+    max-width: unset !important;
+}
+.message-2CShn3 .wrapper-1HIH0j {
+    padding: 14px 12px !important;
+    width: 432px !important;
+    background-color: var(--background-secondary);
+}
+.theme-dark .cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB), .theme-dark .embedFull-1HGV2S {
+    background-color: var(--background-modifier-selected);
+    font-weight: 400;
+}
+.cozy-VmLDNB.message-2CShn3 {
+    background: none !important;
+}
+.message-2CShn3::before {
+    content: unset !important;
+}
+.cozy-VmLDNB.message-2CShn3.selected-2LX7Jy .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB),
+.cozy-VmLDNB.message-2CShn3.selected-2LX7Jy .embedFull-1HGV2S,
+.cozy-VmLDNB.message-2CShn3.selected-2LX7Jy .container-rr3Ruk > div {
+    background-color: var(--background-tertiary) !important;
+}
+.cozy-VmLDNB.message-2CShn3.mentioned-Tre-dv .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB) {
+    background-color: var(--background-mentioned) !important;
+    border-left: 2px solid #faa61a;
+}
+.theme-dark .cozy-VmLDNB.message-2CShn3.selected-2LX7Jy .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB),
+.theme-dark .cozy-VmLDNB.message-2CShn3.selected-2LX7Jy .embedFull-1HGV2S,
+.theme-dark .cozy-VmLDNB.message-2CShn3.selected-2LX7Jy .container-rr3Ruk > div {
+    background-color: var(--background-secondary-alt) !important;
+}
+.embedFull-1HGV2S {
+    max-width: 520px;
+    width: auto !important;
+}
+.embedFull-1HGV2S .grid-1aWVsE {
+    padding: 0 4px;
+    padding-bottom: 8px;
+}
+.embedFull-1HGV2S .embedThumbnail-2nTasl {
+    margin-left: 12px !important;
+}
+.cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB) pre {
+    max-width: 100%;
+}
+.cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB) pre code {
+    background-color: var(--background-primary);
+    border-radius: 0;
+    border-radius: 16px;
+    border-top-left-radius: 0 !important;
+}
+.theme-dark .cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB) pre code {
+    background-color: var(--background-tertiary);
+}
+.cozy-VmLDNB .repliedMessage-3Z6XBG {
+    border-bottom-left-radius: 0 !important;
+    margin-bottom: -4px !important;
+    background-color: var(--background-secondary-alt);
+}
+.cozy-VmLDNB .repliedMessage-3Z6XBG::before {
+    content: unset !important;
+}
+.cozy-VmLDNB .repliedMessage-3Z6XBG ~ .contents-2MsGLg > .messageContent-2t3eCI:first-of-type {
+    border-top-right-radius: 0;
+}
+.cozy-VmLDNB .repliedMessage-3Z6XBG, .repliedMessage-3Z6XBG ~ .contents-2MsGLg > .messageContent-2t3eCI:first-of-type {
+    width: 60% !important;
+    width: clamp(500px, 100%, 600px) !important;
+}
+.executedCommand-14-SNW {
+    height: unset !important;
+}
+.cozy-VmLDNB .repliedMessage-3Z6XBG ~ .contents-2MsGLg > .messageContent-2t3eCI:first-of-type::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    right: 0;
+    width: 16px;
+    height: 16px;
+    background-color: var(--background-secondary-alt);
+    border-top-left-radius: 100%;
+}
+.cozy-VmLDNB.wrapper-30-Nkg {
+    display: flex;
+    flex-direction: column;
+}
+.cozy-VmLDNB .contents-2MsGLg {
+    display: contents;
+}
+.cozy-VmLDNB .contents-2MsGLg .header-2jRmjb {
+    order: -1;
+}
+.cozy-VmLDNB .contents-2MsGLg > span {
+    order: -1;
+}
+
+/* END OF FILE */

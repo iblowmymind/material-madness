@@ -1,0 +1,53 @@
+:root {
+  --background-primary: #232322;
+  --background-secondary: #212121;
+  --background-secondary-alt: #1b1b1b;
+  --background-tertiary: #1b1b1b;
+  --background-accent: #454545;
+  --background-modifier-hover: #252525;
+  --background-modifier-active: #232323;
+  --background-modifier-selected: #303030;
+  --scrollbar-thin-thumb: #313131;
+  --deprecated-card-bg: #1a1a1a63;
+  --deprecated-quickswitcher-input-background: #1b1b1b;
+  --channeltextarea-background: #303030;
+  --deprecated-store-bg: #303030;
+  --background-mobile-primary: #232322;
+  --background-mobile-secondary: #212121;
+  --activity-card-background: #212121;
+  --deprecated-card-editable-bg: rgba(48, 48, 48, 0.3);
+  --deprecated-text-input-border-disabled: #212121;
+  --text-link: #4b7179;
+  --text-normal: #d4d4d3;
+  --background-mentioned: rgba(250, 166, 26, 0.05);
+}
+
+.theme-dark .container-1D34oG {
+  background-color: var(--background-primary) !important;
+}
+
+.theme-dark .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK),
+.theme-dark .embedFull-2tM8-- {
+  background-color: var(--background-modifier-selected) !important;
+}
+
+.theme-dark .body-3iLsc4,
+.theme-dark .footer-1fjuF6 {
+  background-color: var(--background-secondary) !important;
+}
+
+.theme-dark .root-g14mjS {
+  background-color: var(--background-secondary) !important;
+}
+
+.theme-dark .footer-31IekZ {
+  background-color: var(--background-modal-color) !important;
+}
+
+.theme-dark .message-2qRu38 {
+  background-color: var(--background-primary) !important;
+}
+
+.theme-dark .autocomplete-3NRXG8 {
+  background-color: var(--background-tertiary) !important;
+}

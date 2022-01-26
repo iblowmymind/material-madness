@@ -23,6 +23,12 @@ Made for [Powercord](https://powercord.dev).
 
 ## Changelog
 
+- 1.5.0.0 (26/1/2022)
+
+  ```text
+  > Restructured everything.
+  ```
+
 - 1.4.3.0 (16/1/2022)
   
   ```text
