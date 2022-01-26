@@ -17,9 +17,17 @@ Made for [Powercord](https://powercord.dev).
 
 ## How to Install
 
+### Powercord
+
 - Enter your powercord themes folder.
 - Run `git clone https://github.com/iblowmymind/material-madness`
 - Voila!
+
+### Basically anything else (untested)
+
+- Try to see if there's a way to inject Custom CSS.
+- If there is, try: `@import url("https://raw.githubusercontent.com/iblowmymind/material-madness/main/src/main.css");`
+- This is not guaranteed to work, but voila! I think?
 
 ## Changelog
 
