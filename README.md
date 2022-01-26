@@ -13,7 +13,7 @@ Made for [Powercord](https://powercord.dev).
 ## Recommended Themes Alongside This One
 
 - [GradientButtons v2](https://github.com/Discord-Theme-Addons/gradientbuttons-v2)
-- [Discord-TeardropMessages (already included](https://github.com/Freeplayg/Discord-TeardropMessages)
+- [Discord-TeardropMessages (already included)](https://github.com/Freeplayg/Discord-TeardropMessages)
 
 ## How to Install
 
