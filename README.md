@@ -26,7 +26,7 @@ Made for [Powercord](https://powercord.dev).
 ### Basically anything else (untested)
 
 - Try to see if there's a way to inject Custom CSS.
-- If there is, try: `@import url("https://raw.githubusercontent.com/iblowmymind/material-madness/main/src/main.css");`
+- If there is, try: `@import url("https://iblowmymind.github.io/material-madness/src/main.css");`
 - This is not guaranteed to work, but voila! I think?
 
 ## Changelog
