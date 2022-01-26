@@ -3,11 +3,16 @@
 A little theme utilizing the material-darker color palette.  
 Made for [Powercord](https://powercord.dev).
 
+## Disclaimer
+
+This is a mess. I only made this for me to use myself. Please. Spare yourself and don't.
+
 ## Features
 
 - material-darker color palette
 - rounded text bar
 - some other tiny snippets
+- some other not so tiny snippets
 - yeah that's basically it
 
 ## Recommended Themes Alongside This One
@@ -35,66 +40,69 @@ Made for [Powercord](https://powercord.dev).
 
   ```text
   > Restructured everything.
+  > Broke everything.
+  > Fixed everything back up.
+  > Added GoogleMaterialIcons.
   ```
 
 - 1.4.3.0 (16/1/2022)
   
   ```text
-  > Add teardrop messages
+  > Added TeardropMessages (a modified version to match the color scheme).
   ```
 
 - 1.4.2.1 (14/1/2022)
 
   ```text
-  > Fixes
+  > Fixed up some stuff.
   ```
 
 - 1.4.2.0 (13/1/2022)
   
   ```text
-  > Added a snippet, changes to some parts
+  > Added another snippet, changed some parts of the theme again.
   ```
 
 - 1.4.1.1 (12/1/2022)
   
   ```text
-  > Added a snippet, changes to some parts
+  > Added a snippet, changed some parts of the theme.
   ```
 
 - 1.4.1.0 (8/1/2022)
   
   ```text
-  > Fixes to the CSS changes
+  > Fixes to Discord's class changes.
   ```
 
 - 1.4.0.2 (2/1/2022)
   
   ```text
-  > Change to a snippet
+  > Changed a snippet.
   ```
 
 - 1.4.0.1 (2/1/2022)
   
   ```text
-  > Change to a snippet
+  > Changed a snippet.
   ```
 
 - 1.4.0 (2/1/2022)
   
   ```text
-  > Add some user snippets! (Credits included.)
+  > Added some user snippets! (Credits included.)
   ```
 
 - 1.3.12 (2/1/2022)
   
   ```text
-  > Fix some modal colors up.
+  > Fixed some modal colors up.
   ```
 
 - 1.3.11 (12/9/2021)
   
   ```text
-  > Actually upload this to GitHub lol
+  > Actually uploaded this to GitHub lol
   ```
 
 ## Information about the color palette that's used
