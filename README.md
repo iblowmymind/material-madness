@@ -36,6 +36,13 @@ This is a mess. I only made this for me to use myself. Please. Spare yourself an
 
 ## Changelog
 
+- 1.5.1.0 (27/1/2022)
+
+  ```text
+  > Added a new snippet.
+  > Added a UserCSS version (don't know if it works yet)
+  ```
+
 - 1.5.0.0 (26/1/2022)
 
   ```text
