@@ -1,7 +1,7 @@
 {
     "name": "Material Madness",
     "description": "just a bunch of CSS snippets, plus a color scheme. for powercord.",
-    "version": "1.5.0.0",
+    "version": "1.5.1.0",
     "author": "blw#9687",
     "theme": "material-madness.css",
     "license": "MIT"

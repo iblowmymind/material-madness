@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name         Material Madness
+@namespace    github.com/openstyles/stylus
+@homepageURL  https://github.com/iblowmymind/material-madness
+@supportURL   https://github.com/iblowmymind/material-madness/issues
+@updateURL    https://iblowmymind.github.io/material-madness/material-madness.user.css
+@version      1.5.1.0
+@description  just a bunch of CSS snippets, plus a color scheme. for powercord.
+@author       blw
+@license      MIT
+@preprocessor default
+==/UserStyle== */
+
+@-moz-document url-prefix("https://discord.com/app"), url-prefix("https://ptb.discord.com/app"), url-prefix("https://canary.discord.com/app") {
+	@import url("https://iblowmymind.github.io/material-madness/src/main.css");
+}
