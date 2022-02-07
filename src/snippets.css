@@ -88,6 +88,10 @@ pre.vpc-shiki {
   font-family: dash2space, var(--font-primary);
 }
 
+.title-17SveM {
+	font-family: dash2space, var(--font-primary);
+} /* Actually make the titles use dash2space as well */
+
 /* Teardrop Messages 1.10 (by: Freeplay#5676, modified) */
 :root {
     --background-message-hover: transparent;
