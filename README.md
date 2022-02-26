@@ -31,16 +31,23 @@ This is a mess. I only made this for me to use myself. Please. Spare yourself an
 ### Basically anything else (untested)
 
 - Try to see if there's a way to inject Custom CSS.
-- If there is, try: `@import url("https://iblowmymind.github.io/material-madness/src/main.css");`
+- If there is, try: `@import url("https://iblowmymind.github.io/material-madness/src/main.css");` on any subdomain or URL under https://discord.com/app (or canary.discord.com or... you get the idea)
 - This is not guaranteed to work, but voila! I think?
+- **Testing would be welcome, if you tried this and if it works (or not), feel free to create an issue!**
 
 ## Changelog
+
+- 1.5.2.0 (26/2/2022)
+  ```text
+  > Added a new snippet.
+  > Added a new fix.
+  ```
 
 - 1.5.1.0 (27/1/2022)
 
   ```text
   > Added a new snippet.
-  > Added a UserCSS version (don't know if it works yet)
+  > Added a UserCSS version (don't know if it works yet, testing would be welcome!)
   ```
 
 - 1.5.0.0 (26/1/2022)
