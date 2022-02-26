@@ -113,3 +113,8 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
 .theme-dark .message-G6O-Wv {
 	background-color: var(--background-primary);
 }
+
+/* Fix for images doing weird stuff when there's a "new message" overlay on front (Snippet credit: Sera#0788) */
+#app-mount [id^="message-accessories"] {
+	z-index: 0;
+}
