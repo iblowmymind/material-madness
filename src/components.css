@@ -114,3 +114,8 @@
 .powercord-quickcss > .powercord-quickcss-editor {
   background-color: var(--background-secondary);
 }
+
+/* Hide GIF, Sticker & Gift Nitro Buttons */
+.contents-3ca1mk.button-2fCJ0o.button-3BaQ4X {
+  display: none;
+}

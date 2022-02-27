@@ -276,8 +276,8 @@ pre.vpc-shiki {
   width:30vw;
 }
 
-/* GIF and Sticker buttons only show on hover (by: Obscure.#4719) */
-[aria-label="Send en gave"],
+/* (OLD) GIF and Sticker buttons only show on hover (by: Obscure.#4719) */
+/* [aria-label="Send en gave"],
 [aria-label="Ein Geschenk senden"],
 [aria-label="Send a gift"],
 [aria-label="Enviar un regalo"],
@@ -352,4 +352,4 @@ pre.vpc-shiki {
   to {
       margin-bottom: 0px;
   }
-}
+} */ /* (this is unused now, check components.css) */
