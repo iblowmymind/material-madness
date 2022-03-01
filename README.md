@@ -5,20 +5,19 @@ Made for [Powercord](https://powercord.dev).
 
 ## Disclaimer
 
-This is a mess. I only made this for me to use myself. Please. Spare yourself and don't.
+This is a mess. I only made this for me to use myself. Please spare yourself and don't use it. If I can't persuade you, check below for install instructions.
 
 ## Features
 
-- material-darker color palette
-- rounded text bar
-- some other tiny snippets
-- some other not so tiny snippets
-- yeah that's basically it
+- [Material Darker](https://github.com/material-theme/vsc-material-theme) color palette
+- Rounded text bar, "unread messages" etc.
+- A bunch of [snippets](https://iblowmymind.github.io/material-madness/src/snippets.css), some tiny, others not so tiny
+- Fixes, hides & components
 
 ## Recommended Themes Alongside This One
 
 - [GradientButtons v2](https://github.com/Discord-Theme-Addons/gradientbuttons-v2)
-- [Discord-TeardropMessages (already included)](https://github.com/Freeplayg/Discord-TeardropMessages)
+- [Discord-TeardropMessages (already included is a patched version in snippets.css)](https://github.com/Freeplayg/Discord-TeardropMessages)
 
 ## How to Install
 
@@ -122,6 +121,10 @@ This is a mess. I only made this for me to use myself. Please. Spare yourself an
 ## Theme Details
 
 TODO: Remind me to not be lazy and actually type this part out.
+
+## Credits for 3rd-party snippets
+
+Check [snippets.css](https://iblowmymind.github.io/material-madness/src/snippets.css) for credits in header comments for each snippet.
 
 ## License
 
