@@ -2,17 +2,14 @@
 .theme-light .root-g14mjS {
   background-color: #232322 !important;
 }
-
 .theme-light .footer-31IekZ {
   background-color: #232322;
   border-color: rgba(0, 0, 0);
   box-shadow: none;
 }
-
 .templatesList-uohY49 {
   height: 335px;
 }
-
 div[class*="colorHeaderSecondary-g5teka size16-rrJ6ag subtitle-3m-md1"],
 div[class*="colorHeaderSecondary-g5teka size12-oc4dx4 optionHeader-27AHfD"],
 div[class*="colorHeaderSecondary-g5teka size16-rrJ6ag subtitle-1Q3BuX"],
@@ -30,35 +27,28 @@ h3[class*="footerTitle-3Bslxi fontDisplay-3Gtuks base-21yXnu size20-9iTTnl"],
 h5[class*="colorStandard-21JIj7 size14-e6ZScH h5-18_1nd title-3sZWYQ defaultMarginh5-2mL-bP"] {
   color: white;
 }
-
 .container-x8Y1ix {
   background-color: #282828;
   margin-bottom: 8px;
 }
-
 .container-x8Y1ix:hover {
   background-color: var(--indicator-hovered);
 }
-
 .container-x8Y1ix:active {
   background-color: #2f3136;
 }
-
 .base-1x0h_U,
 .colorStandard-21JIj7 {
   color: white;
 }
-
 .footerButton-24QPis.button-f2h6uQ.lookFilled-yCfaCM.colorGrey-2iAG-B.sizeMedium-2bFIHr.grow-2sR_-F {
   background: linear-gradient(var(--gradient-blurple));
   background-color: var(--brand-experiment);
   color: #fff;
 }
-
 .sampleLink-5BWNy9 {
   color: gray;
 }
-
 button[class*="backButton-iA7KIs button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x grow-q77ONN"],
 button[class*="button-38aScr lookLink-9FtZy- lowSaturationUnderline-3svVxy colorPrimary-3b3xI6 sizeMin-1mJd1x grow-q77ONN"],
 button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x grow-q77ONN"],
@@ -66,29 +56,25 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
 .anchor-3Z-8Bb {
   color: var(--brand-experiment);
 }
-
 .input-m1-Y7Q {
   background-color: #232322;
 }
-
 .rowContainer-3t7486 {
   background-color: #232322;
 }
 
-/* Better Settings Search Icon Fix */
+/* Better Settings Search Icon Fix
 .searchdiv .settingsicon {
   height: 14.9px;
-}
+} */
 
 /* Modal fixes (for user notes & birthdays, etc.) */
 .theme-dark .modal-yWgWj- {
   background-color: var(--background-secondary);
 }
-
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker {
   background-color: var(--background-secondary);
 }
-
 .theme-dark .calendarPicker-2yf6Ci .react-datepicker__header {
   background-color: var(--background-secondary);
 }
@@ -97,19 +83,15 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
 .tabBody-2dgbAs {
   background-color: var(--background-primary);
 }
-
 .theme-dark .selected-3H3-RC {
   background-color: var(--background-modifier-hover);
 }
-
 .theme-dark .spoilerText-27bIiA.hidden-3B-Rum {
   background-color: var(--background-tertiary);
 }
-
 .theme-dark .spoilerText-27bIiA.hidden-3B-Rum:hover {
   background-color: rgba(18, 22, 24, 0.8);
 }
-
 .theme-dark .message-G6O-Wv {
 	background-color: var(--background-primary);
 }

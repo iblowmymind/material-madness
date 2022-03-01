@@ -21,33 +21,26 @@
   --text-normal: #d4d4d3;
   --background-mentioned: rgba(250, 166, 26, 0.05);
 }
-
 .theme-dark .container-1D34oG {
   background-color: var(--background-primary) !important;
 }
-
 .theme-dark .messageContent-2qWWxC:not(.repliedTextContent-1R3vnK),
 .theme-dark .embedFull-2tM8-- {
   background-color: var(--background-modifier-selected) !important;
 }
-
 .theme-dark .body-3iLsc4,
 .theme-dark .footer-1fjuF6 {
   background-color: var(--background-secondary) !important;
 }
-
 .theme-dark .root-g14mjS {
   background-color: var(--background-secondary) !important;
 }
-
 .theme-dark .footer-31IekZ {
   background-color: var(--background-modal-color) !important;
 }
-
 .theme-dark .message-2qRu38 {
   background-color: var(--background-primary) !important;
 }
-
 .theme-dark .autocomplete-3NRXG8 {
   background-color: var(--background-tertiary) !important;
 }
