@@ -46,7 +46,7 @@
   display: none;
 }
 
-/* White Connection Icons */
+/* White Connection Icons (BROKEN)
 .connectedAccountIcon-2vls0t[alt*="Battle.net Logo"] {
   content: url("/assets/3a257c4cab129e956b05bd50047eb0f9.png");
 }
@@ -82,7 +82,7 @@
 }
 .connectedAccountIcon-2vls0t[alt*="Xbox Logo"] {
   content: url("/assets/850ed4fcf5839b7a32651f5959e8511e.png");
-}
+} */
 
 /* Better CodeMirror */
 .powercord-quickcss .CodeMirror-gutters {
