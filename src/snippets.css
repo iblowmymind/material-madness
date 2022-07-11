@@ -266,3 +266,49 @@ pre.vpc-shiki {
   max-height:70vh !important;
   width:30vw;
 }
+
+/* Move Plugins and Themes settings back to where they were (by: DracoClaw#0065) */
+.side-2ur1Qk> div[data-item-id="pc-updater"],
+.side-2ur1Qk> div[data-item-id="pc-updater"] ~ div { order: 6 }
+
+.side-2ur1Qk> div[data-item-id="pc-moduleManager-plugins"] { order: 1 !important; }
+.side-2ur1Qk> div[data-item-id="pc-moduleManager-themes"] { order: 2 !important; }
+.side-2ur1Qk> div[data-item-id="theme-toggler"] { order: 5 !important; }
+.side-2ur1Qk> div[data-item-id="css-toggler"] { order: 4 !important; }
+.side-2ur1Qk> div[data-item-id="bdCompat"] { order: 3 !important; }
+.item-3XjbnG[data-item-id="pc-updater"] {
+    align-items: unset !important;
+    overflow: visible;
+}
+
+/* Collapsing Voice Panel (by: lucism#3987 & Loremly#9359) */
+.container-1zzFcN .actionButtons-2vEOUh {
+  transition: 250ms ease-out;
+  padding-top: 0px;
+  opacity: 0;
+  height: 0;
+}
+.container-1zzFcN:hover .actionButtons-2vEOUh {
+  padding-top: 4px;
+  height: 36px;
+  opacity: 1;
+}
+
+/* Rounded User Panel (by: lucism#3987, Vozy & Donni) */
+.panels-3wFtMD {
+      margin-right: 5px;
+      margin-bottom: 5px;
+      margin-left: 5px;
+      border: 1px solid #3a3f45;
+      border-radius: 20px;
+      box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
+}
+
+/* -DISABLED- Rounded User Panel Alt (by: RootPSWD#2747 & lucism#3987) */ /*
+.panels-3wFtMD {
+      margin-right: 6px;
+      margin-bottom: 6px;
+      margin-left: 6px;
+      border-radius: 18px;
+      box-shadow: 0 0 3px 0.5px rgba(0, 0, 0, 0.35);
+} */
