@@ -5,7 +5,7 @@ Made for [Powercord](https://powercord.dev).
 
 ## Disclaimer
 
-This is a mess. I only made this for me to use myself. Please spare yourself and don't use it. If I can't persuade you, check below for install instructions.
+This is a mess. I only made this for me to use myself. Please spare yourself and don't use it. If I can't persuade you, though, check below for install instructions.
 
 ## Features
 
@@ -17,7 +17,7 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 ## Recommended Themes Alongside This One
 
 - [GradientButtons v2](https://github.com/Discord-Theme-Addons/gradientbuttons-v2)
-- [Discord-TeardropMessages (already included is a patched version in snippets.css)](https://github.com/Freeplayg/Discord-TeardropMessages)
+- [Discord-TeardropMessages](https://github.com/Freeplayg/Discord-TeardropMessages) (already included is a patched version in snippets.css)
 
 ## How to Install
 
@@ -27,7 +27,7 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 - Run `git clone https://github.com/iblowmymind/material-madness`
 - Voila!
 
-### Basically anything else (untested)
+### Basically anything else (UNTESTED, broken right now?)
 
 - Try to see if there's a way to inject Custom CSS.
 - If there is, try: `@import url("https://iblowmymind.github.io/material-madness/src/main.css");` on any subdomain or URL under https://discord.com/app (or canary.discord.com or... you get the idea)
@@ -36,20 +36,34 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 
 ## Changelog
 
-- 1.5.2.0 (26/2/2022)
+- 1.5.4.0 (11/07/2022)
+
+  ```text
+  > Added new snippets.
+  > Changed username.
+  ```
+
+- 1.5.3.0 (???)
+
+  ```text
+  > Bug fixes.
+  ```
+
+- 1.5.2.0 (26/02/2022)
+
   ```text
   > Added a new snippet.
   > Added a new fix.
   ```
 
-- 1.5.1.0 (27/1/2022)
+- 1.5.1.0 (27/01/2022)
 
   ```text
   > Added a new snippet.
   > Added a UserCSS version (don't know if it works yet, testing would be welcome!)
   ```
 
-- 1.5.0.0 (26/1/2022)
+- 1.5.0.0 (26/01/2022)
 
   ```text
   > Restructured everything.
@@ -58,61 +72,61 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
   > Added GoogleMaterialIcons.
   ```
 
-- 1.4.3.0 (16/1/2022)
+- 1.4.3.0 (16/01/2022)
   
   ```text
   > Added TeardropMessages (a modified version to match the color scheme).
   ```
 
-- 1.4.2.1 (14/1/2022)
+- 1.4.2.1 (14/01/2022)
 
   ```text
   > Fixed up some stuff.
   ```
 
-- 1.4.2.0 (13/1/2022)
+- 1.4.2.0 (13/01/2022)
   
   ```text
   > Added another snippet, changed some parts of the theme again.
   ```
 
-- 1.4.1.1 (12/1/2022)
+- 1.4.1.1 (12/01/2022)
   
   ```text
   > Added a snippet, changed some parts of the theme.
   ```
 
-- 1.4.1.0 (8/1/2022)
+- 1.4.1.0 (08/01/2022)
   
   ```text
   > Fixes to Discord's class changes.
   ```
 
-- 1.4.0.2 (2/1/2022)
+- 1.4.0.2 (02/01/2022)
   
   ```text
   > Changed a snippet.
   ```
 
-- 1.4.0.1 (2/1/2022)
+- 1.4.0.1 (02/01/2022)
   
   ```text
   > Changed a snippet.
   ```
 
-- 1.4.0 (2/1/2022)
+- 1.4.0 (02/01/2022)
   
   ```text
   > Added some user snippets! (Credits included.)
   ```
 
-- 1.3.12 (2/1/2022)
+- 1.3.12 (02/01/2022)
   
   ```text
   > Fixed some modal colors up.
   ```
 
-- 1.3.11 (12/9/2021)
+- 1.3.11 (12/09/2021)
   
   ```text
   > Actually uploaded this to GitHub lol
