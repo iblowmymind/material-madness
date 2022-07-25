@@ -26,7 +26,7 @@
 }
 
 /* Modern Indicators (by: LuckFire on GitHub) */
-@import url('https://discord-extensions.github.io/modern-indicators/src/source.css');
+@import url("https://discord-extensions.github.io/modern-indicators/src/source.css");
 
 /* || Accent Colors
  * Accent colors use HSL to remain compatible with Discord's built in saturation accessibility feature.
