@@ -1,5 +1,7 @@
-rem npx uglifycss src/*.css --output src/material-madness.min.css
+@echo off
+@echo Minifying code...
 cd src
-for %%i in (*.css) do npx uglifycss %%i --output ..\min\%%i.min
+for %%i in (*.css) do npx uglifycss %%i --output ..\min\%%i
 cd ..\min
-for %%i in (*) do move %%i %%i.css
+ren *.css *.
+ren *. *.min.css
