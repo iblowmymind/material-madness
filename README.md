@@ -36,6 +36,14 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 
 ## Changelog
 
+- 1.5.5.0 (25/07/2022)
+
+  ```text
+  > Includes Modern Channel Indicators as an import.
+  > Changed username.
+  > Some (failed and reverted) restructuring.
+  ```
+
 - 1.5.4.0 (11/07/2022)
 
   ```text
