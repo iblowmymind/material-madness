@@ -11,7 +11,7 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 
 - [Material Darker](https://github.com/material-theme/vsc-material-theme) color palette
 - Rounded text bar, "unread messages" etc.
-- A bunch of [snippets](https://iblowmymind.github.io/material-madness/src/snippets.css), some tiny, others not so tiny
+- A bunch of [snippets](https://iblowmymind.github.io/material-madness/src/snippets.css), some tiny, others not so tiny (credits included!)
 - Fixes, hides & components
 
 ## Recommended Themes Alongside This One
