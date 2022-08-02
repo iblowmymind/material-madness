@@ -27,7 +27,7 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 - Run `git clone https://github.com/iblowmymind/material-madness`
 - Voila!
 
-### Basically anything else (UNTESTED, broken right now?)
+### Basically anything else (UNTESTED)
 
 - Try to see if there's a way to inject Custom CSS.
 - If there is, try: `@import url("https://iblowmymind.github.io/material-madness/src/main.css");` on any subdomain or URL under https://discord.com/app (or canary.discord.com or... you get the idea)
@@ -35,6 +35,13 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 - **Testing would be welcome, if you tried this and if it works (or not), feel free to create an issue!**
 
 ## Changelog
+
+- 1.5.6.0 (02/08/2022)
+
+  ```text
+  > Bug fixes
+  > Website fixes
+  ```
 
 - 1.5.5.0 (25/07/2022)
 
