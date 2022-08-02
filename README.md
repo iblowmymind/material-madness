@@ -16,8 +16,8 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 
 ## Recommended Themes Alongside This One
 
-- [GradientButtons v2](https://github.com/Discord-Theme-Addons/gradientbuttons-v2)
-- [Discord-TeardropMessages](https://github.com/Freeplayg/Discord-TeardropMessages) (already included is a patched version in snippets.css)
+- ~~[GradientButtons](https://github.com/discord-extensions/snippets/tree/main/gradient-buttons)~~ (already included in the theme in imports.css)
+- ~~[Discord-TeardropMessages](https://github.com/Freeplayg/Discord-TeardropMessages)~~ (already included is a patched version in snippets.css)
 
 ## How to Install
 
