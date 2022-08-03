@@ -100,7 +100,7 @@
   display: none;
 }
 
-/* Hide Nitro Tab from Direct Messages */
-#app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > li:nth-child(3) > div > a {
+/* Hide Nitro Tab from Direct Messages (plugin used now?) */
+/* #app-mount > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div > div > div > div.sidebar-1tnWFu > nav > div.scroller-WSmht3.thin-31rlnD.scrollerBase-_bVAAt.fade-1R6FHN > ul > li:nth-child(3) > div > a {
   display: none;
-}
+} */
