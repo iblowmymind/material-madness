@@ -294,7 +294,7 @@ pre.vpc-shiki {
   opacity: 1;
 }
 
-/* Rounded User Panel (by: lucism#3987, Vozy & Donni) */
+/* -DISABLED- Rounded User Panel (by: lucism#3987, Vozy & Donni) */ /*
 .panels-3wFtMD {
       margin-right: 5px;
       margin-bottom: 5px;
@@ -302,7 +302,7 @@ pre.vpc-shiki {
       border: 1px solid #3a3f45;
       border-radius: 20px;
       box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.45);
-}
+} */
 
 /* -DISABLED- Rounded User Panel Alt (by: RootPSWD#2747 & lucism#3987) */ /*
 .panels-3wFtMD {
