@@ -36,6 +36,12 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 
 ## Changelog
 
+- 1.5.7.0 (24/09/2022)
+  ```text
+  > New snippet (makes Discord User Account Creation Date more consistent)
+  > Improvement for ChannelTabs padding
+  ```
+
 - 1.5.6.0 (02/08/2022)
 
   ```text
