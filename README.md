@@ -1,7 +1,9 @@
 # Material Madness
 
+[![Theme Version](https://img.shields.io/badge/version-1.5.7.0-blue)]
 A little theme utilizing the material-darker color palette.  
-Made for [Powercord](https://powercord.dev).
+Made for [Replugged](https://replugged.dev).
+
 
 ## Disclaimer
 
@@ -18,16 +20,30 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 
 - ~~[GradientButtons](https://github.com/discord-extensions/snippets/tree/main/gradient-buttons)~~ (already included in the theme in imports.css)
 - ~~[Discord-TeardropMessages](https://github.com/Freeplayg/Discord-TeardropMessages)~~ (already included is a patched version in snippets.css)
+- [Modern Indicators](https://github.com/discord-extensions/modern-indicators)
 
 ## How to Install
 
-### Powercord
+### Replugged (and Topaz)
 
-- Enter your powercord themes folder.
+#### Replugged URL Install
+
+- Click [this link](https://replugged.dev/install?url=iblowmymind/material-madness) to let Replugged automagically install the theme for you.
+- Enable the theme from Settings.
+
+#### Git Clone
+
+- Enter your Replugged themes folder.
 - Run `git clone https://github.com/iblowmymind/material-madness`
-- Voila!
+- Enable the theme from Settings.
 
-### Basically anything else (UNTESTED)
+### Stylus (Untested)
+
+- Install a Userstyle plugin like [Stylus](https://add0n.com/stylus.html). (do NOT use Stylish, it's spyware)
+- Click [this link](https://github.com/iblowmymind/material-madness/raw/main/material-madness.user.css) and click "Install style".
+- **I'm not sure if this works right now, so testing would be welcome, if you tried this and if it works (or not), feel free to create an issue!**
+
+### Basically anything else (Untested)
 
 - Try to see if there's a way to inject Custom CSS.
 - If there is, try: `@import url("https://iblowmymind.github.io/material-madness/src/main.css");` on any subdomain or URL under https://discord.com/app (or canary.discord.com or... you get the idea)
