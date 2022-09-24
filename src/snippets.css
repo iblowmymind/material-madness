@@ -343,3 +343,25 @@ pre.vpc-shiki {
 .theme-light .timestamp-6-ptG3::before {
   filter: invert(87%); 
 }
+
+/* Consistent Account Date (by: Overimagine#7758, modified by me to fix CSS classes) */
+.discordMemberCreatedAt-31OkT7 {
+   height: 24px;
+   padding: 8px;
+}
+
+.discordMemberCreatedAtIconContainer-2NS-8S {
+   padding: 0px;
+   background-color: var(--background-tertiary);
+}
+
+.discordMemberCreatedAtText-15sN5q>div{
+   display: none;
+}
+
+.discordMemberCreatedAt-31OkT7>.discordMemberCreatedAtText-15sN5q>h3{
+   font-size: 16px;
+   font-family: inherit;
+   font-weight: 600;
+   user-select: text;
+}

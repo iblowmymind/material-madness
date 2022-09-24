@@ -105,3 +105,8 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
 .sprite-2lxwfc {
 	background-image: url(https://discord.com/assets/7e5013a9afc1404b0b89d99aaec0b398.png) !important;
 }
+
+/* Fix for ChannelTabs Padding */
+#channelTabs-container {
+  padding: 4px 8px 4px 8px !important;
+}
