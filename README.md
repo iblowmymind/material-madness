@@ -1,6 +1,6 @@
 # Material Madness
 
-[![Theme Version](https://img.shields.io/badge/version-1.5.7.0-blue)]
+![Theme Version](https://img.shields.io/badge/version-1.5.7.0-blue)
 A little theme utilizing the material-darker color palette.  
 Made for [Replugged](https://replugged.dev).
 
