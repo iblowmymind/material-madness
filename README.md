@@ -3,7 +3,7 @@
 ![Theme Version](https://img.shields.io/badge/version-1.5.7.1-blue)
   
 A little theme utilizing the material-darker color palette.  
-Made for [Replugged](https://replugged.dev).
+Made for [Replugged](https://replugged.dev), but works mostly everywhere you can inject CSS.
 
 
 ## Disclaimer
@@ -21,7 +21,7 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 
 - ~~[GradientButtons](https://github.com/discord-extensions/snippets/tree/main/gradient-buttons)~~ (already included in the theme in imports.css)
 - ~~[Discord-TeardropMessages](https://github.com/Freeplayg/Discord-TeardropMessages)~~ (already included is a patched version in snippets.css)
-- [Modern Indicators](https://github.com/discord-extensions/modern-indicators)
+- ~~[Modern Indicators](https://github.com/discord-extensions/modern-indicators)~~ (already included in the theme in imports.css)
 
 ## How to Install
 
@@ -38,6 +38,25 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 - Run `git clone https://github.com/iblowmymind/material-madness`
 - Enable the theme from Settings.
 
+### OpenAsar CSS Injection (TODO: Update on CSS UI Release)
+
+- Make sure you have the latest version of [OpenAsar](https://openasar.dev/) (at least `5d2bd94`)
+- Add `"css": "@import url(https://iblowmymind.github.io/material-madness/src/main.css);"` under the "openasar" field in your `settings.json` file (don't forget to add a comma after the last key in the "openasar" field) so that it looks something like this: 
+```json
+{
+  "openasar": {
+    "setup": true,
+    "css": "@import url(https://iblowmymind.github.io/material-madness/src/main.css);"
+  },
+  "OPEN_ON_STARTUP": true,
+  "MINIMIZE_TO_TRAY": true,
+  "START_MINIMIZED": true,
+  "IS_MAXIMIZED": true,
+  "IS_MINIMIZED": false,
+  "DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true
+}
+```
+
 ### Stylus (Untested)
 
 - Install a Userstyle plugin like [Stylus](https://add0n.com/stylus.html). (do NOT use Stylish, it's spyware)
@@ -47,11 +66,17 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 ### Basically anything else (Untested)
 
 - Try to see if there's a way to inject Custom CSS.
-- If there is, try: `@import url("https://iblowmymind.github.io/material-madness/src/main.css");` on any subdomain or URL under https://discord.com/app (or canary.discord.com or... you get the idea)
+- If there is, try: `@import url(https://iblowmymind.github.io/material-madness/src/main.css);` on any subdomain or URL under https://discord.com/app (or canary.discord.com or... you get the idea)
 - This is not guaranteed to work, but voila! I think?
-- **Testing would be welcome, if you tried this and if it works (or not), feel free to create an issue!**
+- **I'm not sure if this works right now, so testing would be welcome, if you tried this and if it works (or not), feel free to create an issue!**
 
 ## Changelog
+
+- 1.5.7.1 (28/09/2022)
+  ```text
+  > Fix import of Modern Indicators (how did I forget imports need to be at the top lol)
+  > Add instructions for OpenAsar CSS injection
+  ```
 
 - 1.5.7.0 (24/09/2022)
   ```text
