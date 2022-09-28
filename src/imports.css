@@ -6,6 +6,12 @@
 /* Gradient Buttons (by: LuckFire on GitHub) */
 @import url("https://discord-extensions.github.io/snippets/gradient-buttons/source.css");
 
+/* Profile Panel Thingy (by: Snare-Hawk#6331) */
+@import url("https://snare-hawk.github.io/snare-CSS/profile-panel-thingy.css");
+
+/* -IMPORT BROKEN?- Modern Indicators (by: LuckFire on GitHub) */
+@import url("https://discord-extensions.github.io/modern-indicators/src/source.css");
+
 :root {
     /* || Gradients */
     --gradient-special: 140deg, hsl(245, calc(var(--saturaton-factor, 1)*79%), 72%) 0%, hsl(287, calc(var(--saturaton-factor, 1)*80%), 70%) 100%;
@@ -25,17 +31,11 @@
     --button-transform-hover: scale(1.04);
 }
 
-/* Profile Panel Thingy (by: Snare-Hawk#6331) */
-@import url("https://snare-hawk.github.io/snare-CSS/profile-panel-thingy.css");
-
-/* -IMPORT BROKEN- Modern Indicators (by: LuckFire on GitHub) */ /*
-@import url("https://discord-extensions.github.io/modern-indicators/src/source.css");
-*/
-
-/* || Accent Colors
+/* Begin Modern Indicators */
+ /* || Accent Colors
  * Accent colors use HSL to remain compatible with Discord's built in saturation accessibility feature.
  * To the bigbrains out there, I know this is unnecessary. This is just how I prefer to do things.
- */ /*
+ */
 .theme-light {
     --indicator-unread: 0, calc(var(--saturation-factor, 1) * 0%), 0%;
     --indicator-selected: 235, calc(var(--saturation-factor, 1) * 86%), 65%;
@@ -50,14 +50,14 @@
     --indicator-hovered: hsla(var(--indicator-unread), 0.045);
     --text-active: white;
 }
-*/
-/* || Main Customization */ /*
+
+/* || Main Customization */
 :root {
     --indicator-border-size: 2px;
     --indicator-border-style: solid;
     --indicator-rounding: 0;
-*/
-    /* || Advanced Coloring */ /*
+
+    /* || Advanced Coloring */
     --item-selected-icon: hsl(var(--indicator-selected));
     --item-selected-indicator: hsl(var(--indicator-selected));
     --item-selected-background: hsla(var(--indicator-selected), 0.1);
@@ -72,4 +72,4 @@
     --item-unread-indicator: hsl(var(--indicator-unread), 0.5);
     --item-unread-background: hsl(var(--indicator-unread), 0.025);
     --item-unread-background-hover: hsl(var(--indicator-unread), 0.045);
-} */
+}
