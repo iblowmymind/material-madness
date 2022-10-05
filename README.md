@@ -1,6 +1,6 @@
 # Material Madness
 
-![Theme Version](https://img.shields.io/badge/version-1.5.7.1-blue)
+![Theme Version](https://img.shields.io/badge/version-1.5.7.2-blue)
   
 A little theme utilizing the material-darker color palette.  
 Made for [Replugged](https://replugged.dev), but works mostly everywhere you can inject CSS.
@@ -41,7 +41,8 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 ### OpenAsar CSS Injection (TODO: Update on CSS UI Release)
 
 - Make sure you have the latest version of [OpenAsar](https://openasar.dev/) (at least `5d2bd94`)
-- Add `"css": "@import url(https://iblowmymind.github.io/material-madness/src/main.css);"` under the "openasar" field in your `settings.json` file (don't forget to add a comma after the last key in the "openasar" field) so that it looks something like this: 
+- **OPTION 1:** Go to OpenAsar's Settings, switch to the Theming tab and paste `@import url(https://iblowmymind.github.io/material-madness/src/main.css);` in the text box, then click on Restart.
+- **OPTION 2:** Add `"css": "@import url(https://iblowmymind.github.io/material-madness/src/main.css);"` under the "openasar" field in your `settings.json` file (don't forget to add a comma after the last key in the "openasar" field) so that it looks something like this: 
 ```json
 {
   "openasar": {
@@ -71,6 +72,11 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 - **I'm not sure if this works right now, so testing would be welcome, if you tried this and if it works (or not), feel free to create an issue!**
 
 ## Changelog
+
+- 1.5.7.2 (05/10/2022)
+  ```text
+  > Image carousel background fix
+  ```
 
 - 1.5.7.1 (28/09/2022)
   ```text

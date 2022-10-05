@@ -110,3 +110,8 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
 #channelTabs-container {
   padding: 4px 8px 4px 8px !important;
 }
+
+/* Image Carousel Fix? */
+.carouselModal-1eUFoq.zoomedCarouselModalRoot-beLNhM.root-g14mjS.fullscreenOnMobile-ixj0e3 {
+	background-color: transparent !important;
+}
