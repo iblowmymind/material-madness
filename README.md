@@ -38,11 +38,11 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 - Run `git clone https://github.com/iblowmymind/material-madness`
 - Enable the theme from Settings.
 
-### OpenAsar CSS Injection (TODO: Update on CSS UI Release)
+### OpenAsar CSS Injection
 
-- Make sure you have the latest version of [OpenAsar](https://openasar.dev/) (at least `5d2bd94`)
-- **OPTION 1:** Go to OpenAsar's Settings, switch to the Theming tab and paste `@import url(https://iblowmymind.github.io/material-madness/src/main.css);` in the text box, then click on Restart.
-- **OPTION 2:** Add `"css": "@import url(https://iblowmymind.github.io/material-madness/src/main.css);"` under the "openasar" field in your `settings.json` file (don't forget to add a comma after the last key in the "openasar" field) so that it looks something like this: 
+- Make sure you have the latest version of [OpenAsar](https://openasar.dev/) (at least `5d2bd94`), which you probably will as restarting should auto-update.
+- **OPTION 1 (UI):** Go to OpenAsar's Settings (click on the OpenAsar version text in the bottom of your settings area in Discord), switch to the Theming tab and paste `@import url(https://iblowmymind.github.io/material-madness/src/main.css);` in the text box, then click on Restart.
+- **OPTION 2 (Manual):** Add `"css": "@import url(https://iblowmymind.github.io/material-madness/src/main.css);"` under the "openasar" field in your `settings.json` file (don't forget to add a comma after the last key in the "openasar" field) so that it looks something like this: 
 ```json
 {
   "openasar": {
