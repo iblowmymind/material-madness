@@ -3,7 +3,7 @@
 ![Theme Version](https://img.shields.io/badge/version-1.5.7.2-blue)
   
 A little theme utilizing the material-darker color palette.  
-Made for [Replugged](https://replugged.dev), but works mostly everywhere you can inject CSS.
+Made for [Replugged](https://replugged.dev), but works mostly everywhere you can inject CSS onto Discord. (so, it works in Replugged, OpenAsar, BetterDiscord and Stylus)
 
 
 ## Disclaimer
