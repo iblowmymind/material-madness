@@ -73,6 +73,11 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 
 ## Changelog
 
+- 1.5.8.0 (20/11/2022)
+  ```text
+  > Hide nitro upsell
+  ```
+
 - 1.5.7.2 (05/10/2022)
   ```text
   > Image carousel background fix
