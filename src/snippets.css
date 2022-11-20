@@ -313,13 +313,13 @@ pre.vpc-shiki {
       box-shadow: 0 0 3px 0.5px rgba(0, 0, 0, 0.35);
 } */
 
-/* fixes banner on settings page (by: Snare-Hawk#6331) */
-.settingsBanner-1eDJ5w {
+/* -DISABLED- fixes banner on settings page (by: Snare-Hawk#6331, modified to fix partially) */ /*
+.settingsBanner-2E5fAp {
     height: 240px;
 }
 .userInfo-regn9W .avatar-3mTjvZ {
     top: 220px !important;
-}
+} */
 
 /* makes mutual server icons on friends list look good (by: Snare-Hawk#6331) */
 .pd-mutualGuilds.pd-container div {
