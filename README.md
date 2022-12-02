@@ -73,6 +73,11 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 
 ## Changelog
 
+- 1.5.9.0 (02/12/2022)
+  ```text
+  > Return old Discord font (GG Sans -> Whitney)
+  ```
+
 - 1.5.8.0 (20/11/2022)
   ```text
   > Hide nitro upsell
