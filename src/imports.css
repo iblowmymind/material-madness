@@ -12,6 +12,9 @@
 /* Modern Indicators (by: LuckFire on GitHub) */
 @import url("https://discord-extensions.github.io/modern-indicators/src/source.css");
 
+/* Old Discord Fonts (by: Overimagine#4150) */
+@import url(https://overimagine1.github.io/old-discord-font/source.css);
+
 :root {
     /* || Gradients */
     --gradient-special: 140deg, hsl(245, calc(var(--saturaton-factor, 1)*79%), 72%) 0%, hsl(287, calc(var(--saturaton-factor, 1)*80%), 70%) 100%;
