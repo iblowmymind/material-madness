@@ -93,17 +93,17 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
   background-color: rgba(18, 22, 24, 0.8);
 }
 .theme-dark .message-G6O-Wv {
-	background-color: var(--background-primary);
+  background-color: var(--background-primary);
 }
 
 /* Fix for images doing weird stuff when there's a "new message" overlay on front (Snippet credit: Sera#0788) */
 #app-mount [id^="message-accessories"] {
-	z-index: 0;
+  z-index: 0;
 }
 
 /* temp fix for emoji button on material theme, remove later? */
 .sprite-2lxwfc {
-	background-image: url(https://discord.com/assets/7e5013a9afc1404b0b89d99aaec0b398.png) !important;
+  background-image: url(https://discord.com/assets/7e5013a9afc1404b0b89d99aaec0b398.png) !important;
 }
 
 /* Fix for ChannelTabs Padding */
@@ -113,5 +113,5 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
 
 /* Image Carousel Fix? */
 .carouselModal-1eUFoq.zoomedCarouselModalRoot-beLNhM.root-g14mjS.fullscreenOnMobile-ixj0e3 {
-	background-color: transparent !important;
+  background-color: transparent !important;
 }

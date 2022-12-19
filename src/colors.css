@@ -71,26 +71,68 @@
 
 /* Colors for Forums */
 .theme-dark .container-3wLKDe {
-	background-color: var(--background-primary);
+  background-color: var(--background-primary);
 }
 .mainCard-3KBsBI {
-	background-color: var(--background-modifier-selected);
-	border: 1px solid var(--background-modifier-selected);
+  background-color: var(--background-modifier-selected);
+  border: 1px solid var(--background-modifier-selected);
 }
 .sidebarCard-1Gn1ch {
-	background-color: var(--background-modifier-selected);
-	border: 1px solid var(--background-modifier-selected);
+  background-color: var(--background-modifier-selected);
+  border: 1px solid var(--background-modifier-selected);
 }
 .container-2IhveL {
-	background-color: var(--background-modifier-selected);
+  background-color: var(--background-modifier-selected);
 }
 
-#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > div > div.container-3wLKDe > div > div.content-2a4AW9 > li > div > div.left-r1N3TH > div.body-hCVwsC > div.header-2W779F > div > h3 {
-	color: var(--text-normal) !important;
+#app-mount
+  > div.appDevToolsWrapper-1QxdQf
+  > div
+  > div.app-3xd6d0
+  > div
+  > div.layers-OrUESM.layers-1YQhyW
+  > div
+  > div.container-1eFtFS
+  > div
+  > div
+  > div.chat-2ZfjoI
+  > div
+  > div.container-3wLKDe
+  > div
+  > div.content-2a4AW9
+  > li
+  > div
+  > div.left-r1N3TH
+  > div.body-hCVwsC
+  > div.header-2W779F
+  > div
+  > h3 {
+  color: var(--text-normal) !important;
 }
 
-#app-mount > div.appDevToolsWrapper-1QxdQf > div > div.app-3xd6d0 > div > div.layers-OrUESM.layers-1YQhyW > div > div.container-1eFtFS > div > div > div.chat-2ZfjoI > div > div.container-3wLKDe > div > div.content-2a4AW9 > li > div > div.left-r1N3TH > div.body-hCVwsC > div.message-1zs6Od > div > div {
-	color: var(--text-normal) !important;
+#app-mount
+  > div.appDevToolsWrapper-1QxdQf
+  > div
+  > div.app-3xd6d0
+  > div
+  > div.layers-OrUESM.layers-1YQhyW
+  > div
+  > div.container-1eFtFS
+  > div
+  > div
+  > div.chat-2ZfjoI
+  > div
+  > div.container-3wLKDe
+  > div
+  > div.content-2a4AW9
+  > li
+  > div
+  > div.left-r1N3TH
+  > div.body-hCVwsC
+  > div.message-1zs6Od
+  > div
+  > div {
+  color: var(--text-normal) !important;
 }
 
 /* Colors for Server Homes */

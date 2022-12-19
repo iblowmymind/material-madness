@@ -58,14 +58,10 @@ pre.vpc-shiki {
 @font-face {
   font-family: dash2space;
   unicode-range: U+002D;
-  src: url(https://smarty6788.github.io/Dash2Space/src/font/dash2space.ttf)
-      format("truetype"),
-    url(https://smarty6788.github.io/Dash2Space/font/dash2space.woff2)
-      format("woff2");
+  src: url(https://smarty6788.github.io/Dash2Space/src/font/dash2space.ttf) format("truetype"),
+    url(https://smarty6788.github.io/Dash2Space/font/dash2space.woff2) format("woff2");
 }
-#app-mount
-  [data-list-item-id*="channels___upcoming-events-"]
-  > div.name-28HaxV {
+#app-mount [data-list-item-id*="channels___upcoming-events-"] > div.name-28HaxV {
   font-size: 14px;
   font-family: dash2space, var(--font-primary);
 }
@@ -80,168 +76,180 @@ pre.vpc-shiki {
   font-family: dash2space, var(--font-primary);
 }
 .title-17SveM {
-	font-family: dash2space, var(--font-primary);
+  font-family: dash2space, var(--font-primary);
 } /* Actually make the titles use dash2space as well */
 
 /* Teardrop Messages 1.10 (by: Freeplay#5676, modified) */
 :root {
-    --background-message-hover: transparent;
+  --background-message-hover: transparent;
 }
-.cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB), .embedFull-1HGV2S, .wrapper-1HIH0j,
+.cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB),
+.embedFull-1HGV2S,
+.wrapper-1HIH0j,
 .message-2CShn3 .imageWrapper-oMkQl4,
 .cozy-VmLDNB .repliedMessage-3Z6XBG {
-    background-color: var(--background-secondary);
-    font-weight: 500;
-    margin-left: 0 !important;
-    margin-top: 4px !important;
-    padding-left: 0 !important;
-    padding: 8px 12px !important;
-    border-radius: 16px;
-    border-top-left-radius: 0 !important;
-    width: max-content;
-    max-width: 80%;
-    box-shadow: var(--elevation-low);
-    overflow: visible !important;
-    box-sizing: border-box;
+  background-color: var(--background-secondary);
+  font-weight: 500;
+  margin-left: 0 !important;
+  margin-top: 4px !important;
+  padding-left: 0 !important;
+  padding: 8px 12px !important;
+  border-radius: 16px;
+  border-top-left-radius: 0 !important;
+  width: max-content;
+  max-width: 80%;
+  box-shadow: var(--elevation-low);
+  overflow: visible !important;
+  box-sizing: border-box;
 }
 .container-rr3Ruk {
-    border-radius: 16px !important;
-    border-top-left-radius: 0 !important;
-    overflow: hidden;
+  border-radius: 16px !important;
+  border-top-left-radius: 0 !important;
+  overflow: hidden;
 }
 .container-rr3Ruk > div {
-    border: none !important;
+  border: none !important;
 }
 .container-rr3Ruk code {
-    padding: 10px !important;
-    background-color: var(--background-primary);
-    border: 1px solid var(--background-tertiary);
-    border-top-right-radius: 16px;
+  padding: 10px !important;
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-tertiary);
+  border-top-right-radius: 16px;
 }
 .theme-dark .container-rr3Ruk code {
-    background-color: var(--background-tertiary);
+  background-color: var(--background-tertiary);
 }
 .message-2CShn3 .imageWrapper-oMkQl4 {
-    padding: 0 !important;
-    max-width: 100% !important;
-    overflow: hidden !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+  overflow: hidden !important;
 }
 .embedGalleryImagesWrapper-3BWvNM {
-    overflow: hidden;
-    border-radius: 16px;
-    border-top-left-radius: 0;
-    margin-top: 20px;
+  overflow: hidden;
+  border-radius: 16px;
+  border-top-left-radius: 0;
+  margin-top: 20px;
 }
 .embedGalleryImagesWrapper-3BWvNM .imageWrapper-oMkQl4 {
-    border-radius: 0 !important;
+  border-radius: 0 !important;
 }
 .embedGallerySide-3zsYpc {
-    margin-top: -4px;
+  margin-top: -4px;
 }
-.cozy-VmLDNB.message-2CShn3:hover .messageContent-2t3eCI, .message-2CShn3:hover .embedFull-1HGV2S, .cozy-VmLDNB .message-2CShn3:hover .wrapper-1HIH0j,
+.cozy-VmLDNB.message-2CShn3:hover .messageContent-2t3eCI,
+.message-2CShn3:hover .embedFull-1HGV2S,
+.cozy-VmLDNB .message-2CShn3:hover .wrapper-1HIH0j,
 .message-2CShn3:hover .imageWrapper-oMkQl4,
 .message-2CShn3:hover .container-rr3Ruk {
-    box-shadow: var(--elevation-medium) !important;
+  box-shadow: var(--elevation-medium) !important;
 }
 .cozy-VmLDNB.systemMessage-1H1Z20 .messageContent-2t3eCI {
-    border-top-left-radius: 16px !important;
+  border-top-left-radius: 16px !important;
 }
 .cozy-VmLDNB .blockquoteContainer-3VtvI1 blockquote {
-    box-sizing: content-box !important;
-    max-width: unset !important;
+  box-sizing: content-box !important;
+  max-width: unset !important;
 }
 .message-2CShn3 .wrapper-1HIH0j {
-    padding: 14px 12px !important;
-    width: 432px !important;
-    background-color: var(--background-secondary);
+  padding: 14px 12px !important;
+  width: 432px !important;
+  background-color: var(--background-secondary);
 }
-.theme-dark .cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB), .theme-dark .embedFull-1HGV2S {
-    background-color: var(--background-modifier-selected);
-    font-weight: 400;
+.theme-dark .cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB),
+.theme-dark .embedFull-1HGV2S {
+  background-color: var(--background-modifier-selected);
+  font-weight: 400;
 }
 .cozy-VmLDNB.message-2CShn3 {
-    background: none !important;
+  background: none !important;
 }
 .message-2CShn3::before {
-    content: unset !important;
+  content: unset !important;
 }
 .cozy-VmLDNB.message-2CShn3.selected-2LX7Jy .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB),
 .cozy-VmLDNB.message-2CShn3.selected-2LX7Jy .embedFull-1HGV2S,
 .cozy-VmLDNB.message-2CShn3.selected-2LX7Jy .container-rr3Ruk > div {
-    background-color: var(--background-tertiary) !important;
+  background-color: var(--background-tertiary) !important;
 }
-.cozy-VmLDNB.message-2CShn3.mentioned-Tre-dv .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB) {
-    background-color: var(--background-mentioned) !important;
-    border-left: 2px solid #faa61a;
+.cozy-VmLDNB.message-2CShn3.mentioned-Tre-dv
+  .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB) {
+  background-color: var(--background-mentioned) !important;
+  border-left: 2px solid #faa61a;
 }
-.theme-dark .cozy-VmLDNB.message-2CShn3.selected-2LX7Jy .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB),
+.theme-dark
+  .cozy-VmLDNB.message-2CShn3.selected-2LX7Jy
+  .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB),
 .theme-dark .cozy-VmLDNB.message-2CShn3.selected-2LX7Jy .embedFull-1HGV2S,
 .theme-dark .cozy-VmLDNB.message-2CShn3.selected-2LX7Jy .container-rr3Ruk > div {
-    background-color: var(--background-secondary-alt) !important;
+  background-color: var(--background-secondary-alt) !important;
 }
 .embedFull-1HGV2S {
-    max-width: 520px;
-    width: auto !important;
+  max-width: 520px;
+  width: auto !important;
 }
 .embedFull-1HGV2S .grid-1aWVsE {
-    padding: 0 4px;
-    padding-bottom: 8px;
+  padding: 0 4px;
+  padding-bottom: 8px;
 }
 .embedFull-1HGV2S .embedThumbnail-2nTasl {
-    margin-left: 12px !important;
+  margin-left: 12px !important;
 }
 .cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB) pre {
-    max-width: 100%;
+  max-width: 100%;
 }
 .cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB) pre code {
-    background-color: var(--background-primary);
-    border-radius: 0;
-    border-radius: 16px;
-    border-top-left-radius: 0 !important;
+  background-color: var(--background-primary);
+  border-radius: 0;
+  border-radius: 16px;
+  border-top-left-radius: 0 !important;
 }
 .theme-dark .cozy-VmLDNB .messageContent-2t3eCI:not(.repliedTextContent-2hOYMB) pre code {
-    background-color: var(--background-tertiary);
+  background-color: var(--background-tertiary);
 }
 .cozy-VmLDNB .repliedMessage-3Z6XBG {
-    border-bottom-left-radius: 0 !important;
-    margin-bottom: -4px !important;
-    background-color: var(--background-secondary-alt);
+  border-bottom-left-radius: 0 !important;
+  margin-bottom: -4px !important;
+  background-color: var(--background-secondary-alt);
 }
 .cozy-VmLDNB .repliedMessage-3Z6XBG::before {
-    content: unset !important;
+  content: unset !important;
 }
 .cozy-VmLDNB .repliedMessage-3Z6XBG ~ .contents-2MsGLg > .messageContent-2t3eCI:first-of-type {
-    border-top-right-radius: 0;
+  border-top-right-radius: 0;
 }
-.cozy-VmLDNB .repliedMessage-3Z6XBG, .repliedMessage-3Z6XBG ~ .contents-2MsGLg > .messageContent-2t3eCI:first-of-type {
-    width: 60% !important;
-    width: clamp(500px, 100%, 600px) !important;
+.cozy-VmLDNB .repliedMessage-3Z6XBG,
+.repliedMessage-3Z6XBG ~ .contents-2MsGLg > .messageContent-2t3eCI:first-of-type {
+  width: 60% !important;
+  width: clamp(500px, 100%, 600px) !important;
 }
 .executedCommand-14-SNW {
-    height: unset !important;
+  height: unset !important;
 }
-.cozy-VmLDNB .repliedMessage-3Z6XBG ~ .contents-2MsGLg > .messageContent-2t3eCI:first-of-type::before {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    right: 0;
-    width: 16px;
-    height: 16px;
-    background-color: var(--background-secondary-alt);
-    border-top-left-radius: 100%;
+.cozy-VmLDNB
+  .repliedMessage-3Z6XBG
+  ~ .contents-2MsGLg
+  > .messageContent-2t3eCI:first-of-type::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  width: 16px;
+  height: 16px;
+  background-color: var(--background-secondary-alt);
+  border-top-left-radius: 100%;
 }
 .cozy-VmLDNB.wrapper-30-Nkg {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .cozy-VmLDNB .contents-2MsGLg {
-    display: contents;
+  display: contents;
 }
 .cozy-VmLDNB .contents-2MsGLg .header-2jRmjb {
-    order: -1;
+  order: -1;
 }
 .cozy-VmLDNB .contents-2MsGLg > span {
-    order: -1;
+  order: -1;
 }
 
 /* Smooth Gradient on Server Banners (by: Loremly#9359) */
@@ -262,23 +270,35 @@ pre.vpc-shiki {
 }
 
 /* Fix Pinned Message Popout (by: progamer#3321) */
-.messagesPopoutWrap-3zryHW{
-  max-height:70vh !important;
-  width:30vw;
+.messagesPopoutWrap-3zryHW {
+  max-height: 70vh !important;
+  width: 30vw;
 }
 
 /* Move Plugins and Themes settings back to where they were (by: DracoClaw#0065) */
-.side-2ur1Qk> div[data-item-id="pc-updater"],
-.side-2ur1Qk> div[data-item-id="pc-updater"] ~ div { order: 6 }
+.side-2ur1Qk > div[data-item-id="pc-updater"],
+.side-2ur1Qk > div[data-item-id="pc-updater"] ~ div {
+  order: 6;
+}
 
-.side-2ur1Qk> div[data-item-id="pc-moduleManager-plugins"] { order: 1 !important; }
-.side-2ur1Qk> div[data-item-id="pc-moduleManager-themes"] { order: 2 !important; }
-.side-2ur1Qk> div[data-item-id="theme-toggler"] { order: 5 !important; }
-.side-2ur1Qk> div[data-item-id="css-toggler"] { order: 4 !important; }
-.side-2ur1Qk> div[data-item-id="bdCompat"] { order: 3 !important; }
+.side-2ur1Qk > div[data-item-id="pc-moduleManager-plugins"] {
+  order: 1 !important;
+}
+.side-2ur1Qk > div[data-item-id="pc-moduleManager-themes"] {
+  order: 2 !important;
+}
+.side-2ur1Qk > div[data-item-id="theme-toggler"] {
+  order: 5 !important;
+}
+.side-2ur1Qk > div[data-item-id="css-toggler"] {
+  order: 4 !important;
+}
+.side-2ur1Qk > div[data-item-id="bdCompat"] {
+  order: 3 !important;
+}
 .item-3XjbnG[data-item-id="pc-updater"] {
-    align-items: unset !important;
-    overflow: visible;
+  align-items: unset !important;
+  overflow: visible;
 }
 
 /* Collapsing Voice Panel (by: lucism#3987 & Loremly#9359) */
@@ -331,39 +351,39 @@ pre.vpc-shiki {
 
 /* timestamp icon (by: DracoClaw#0065) */
 .timestamp-6-ptG3 {
-  border-radius: 7px; 
+  border-radius: 7px;
   padding: 2.5px;
 }
 .timestamp-6-ptG3::before {
   content: url("data:image/svg+xml,%3Csvg width='12px' height='12px' role='img' fill='white' viewBox='0 0 520 520' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EDiscord%3C/title%3E%3Cpath d='M256,8C119,8,8,119,8,256S119,504,256,504,504,393,504,256,393,8,256,8Zm92.49,313h0l-20,25a16,16,0,0,1-22.49,2.5h0l-67-49.72a40,40,0,0,1-15-31.23V112a16,16,0,0,1,16-16h32a16,16,0,0,1,16,16V256l58,42.5A16,16,0,0,1,348.49,321Z'/%3E%3C/svg%3E");
-    margin: 4px;
-    position: relative;
-    top: 1.5px;
+  margin: 4px;
+  position: relative;
+  top: 1.5px;
 }
 .theme-light .timestamp-6-ptG3::before {
-  filter: invert(87%); 
+  filter: invert(87%);
 }
 
 /* Consistent Account Date (by: Overimagine#7758, modified by me to fix CSS classes) */
 .discordMemberCreatedAt-31OkT7 {
-   height: 24px;
-   padding: 8px;
+  height: 24px;
+  padding: 8px;
 }
 
 .discordMemberCreatedAtIconContainer-2NS-8S {
-   padding: 0px;
-   background-color: var(--background-tertiary);
+  padding: 0px;
+  background-color: var(--background-tertiary);
 }
 
-.discordMemberCreatedAtText-15sN5q>div{
-   display: none;
+.discordMemberCreatedAtText-15sN5q > div {
+  display: none;
 }
 
-.discordMemberCreatedAt-31OkT7>.discordMemberCreatedAtText-15sN5q>h3{
-   font-size: 16px;
-   font-family: inherit;
-   font-weight: 600;
-   user-select: text;
+.discordMemberCreatedAt-31OkT7 > .discordMemberCreatedAtText-15sN5q > h3 {
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: 600;
+  user-select: text;
 }
 
 /* Nitro Ad Killer (by: VendingMachine#8485) */
@@ -372,7 +392,6 @@ pre.vpc-shiki {
 [class^="upsellVisible-"], /* Banner Nitro Upsell Header in the user modal */
 [class^="premiumIconWrapper"], /* Nitro Icon in top right on Banners */
 [class^="characterCount-"] [class*="upsell-"], /* "Send longer Messages with Discord Nitro!" */
-[class^="emojiSection-"] [class*="shinyButton-"] /* "Get Nitro" button in Emoji/Sticker modal" */
-{
-    display: none !important;
+[class^="emojiSection-"] [class*="shinyButton-"] /* "Get Nitro" button in Emoji/Sticker modal" */ {
+  display: none !important;
 }
