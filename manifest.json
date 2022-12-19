@@ -1,0 +1,18 @@
+{
+  "id": "dev.iblowmymind.material-madness",
+  "name": "Material Madness",
+  "description": "just a bunch of CSS snippets, plus a color scheme. for Discord.",
+  "author": {
+    "name": "BlueZodiac",
+    "discordID": "966984739074490390",
+    "github": "iblowmymind"
+  },
+  "version": "1.6.0",
+  "updater": {
+    "type": "github",
+    "id": "iblowmymind/material-madness"
+  },
+  "license": "MIT",
+  "type": "replugged-theme",
+  "main": "src/source.scss"
+}
