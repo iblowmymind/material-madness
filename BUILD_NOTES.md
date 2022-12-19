@@ -4,7 +4,7 @@
 - Just lint: `pnpm run lint:fix`
 - Tag release:
 ```sh
-git tag v1.6.0
+git tag v1.6.1
 git push --tags
 ```
 - Manually compile asar: `pnpm run build-and-bundle`
