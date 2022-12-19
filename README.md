@@ -1,6 +1,6 @@
 # Material Madness
 
-![Theme Version](https://img.shields.io/badge/version-1.5.7.2-blue)
+![Theme Version](https://img.shields.io/badge/version-1.6.0-blue)
   
 A little theme utilizing the material-darker color palette.  
 Made for [Replugged](https://replugged.dev), but works mostly everywhere you can inject CSS onto Discord. (so, it works in Replugged, OpenAsar, BetterDiscord and Stylus)
@@ -27,12 +27,16 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 
 ### Replugged (and Topaz)
 
-#### Replugged URL Install
+#### Replugged Asar Install
+
+- Download the .asar file from releases into your Replugged theme path. More details can be found [here](https://github.com/replugged-org/replugged#installing-plugins-and-themes).
+
+#### (OLD) Replugged URL Install 
 
 - Click [this link](https://replugged.dev/install?url=iblowmymind/material-madness) to let Replugged automagically install the theme for you.
 - Enable the theme from Settings.
 
-#### Git Clone
+#### (OLD) Git Clone
 
 - Enter your Replugged themes folder.
 - Run `git clone https://github.com/iblowmymind/material-madness`
@@ -72,6 +76,11 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 - **I'm not sure if this works right now, so testing would be welcome, if you tried this and if it works (or not), feel free to create an issue!**
 
 ## Changelog
+
+- 1.6.0 (19/12/2022)
+  ```text
+  > New Replugged support!
+  ```
 
 - 1.5.9.0 (02/12/2022)
   ```text
