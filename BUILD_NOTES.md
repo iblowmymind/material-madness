@@ -1,10 +1,12 @@
 # Build Notes
-- Build the theme: `pnpm run build` (make sure pnpm i is run first)
-- Build (no install): `pnpm run build --no-install`
 - Just lint: `pnpm run lint:fix`
-- Tag release:
+- Build the theme locally (no asar): `pnpm run build --no-install` (make sure pnpm i is run first) (to also install, remove `--no-install`)
+- Manually build and bundle asar (no install): `pnpm run build-and-bundle`
+- Tag (and push) release:
 ```sh
-git tag v1.6.1
+git add --all
+git commit -m "Update 1.6.2"
+git tag v1.6.2
 git push --tags
+git push
 ```
-- Manually compile asar: `pnpm run build-and-bundle`
