@@ -77,10 +77,11 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 
 ## Changelog
 
-- 1.6.2 (05/02/2023)
+- 1.6.2 and 1.6.3 (05/02/2023)
   ```text
   > Add user bio snippet
   > 2023!!!!
+  > Forgetfulness strikes
   ```
 
 - 1.6.0 and 1.6.1 (19/12/2022)
