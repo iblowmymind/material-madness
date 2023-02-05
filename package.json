@@ -1,6 +1,6 @@
 {
   "name": "material-madness",
-  "version": "1.6.1",
+  "version": "1.6.2",
   "description": "just a bunch of CSS snippets, plus a color scheme. for Discord.",
   "engines": {
     "node": ">=14.0.0"

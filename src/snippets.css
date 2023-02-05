@@ -395,3 +395,8 @@ pre.vpc-shiki {
 [class^="emojiSection-"] [class*="shinyButton-"] /* "Get Nitro" button in Emoji/Sticker modal" */ {
   display: none !important;
 }
+
+/* Show Full About Me (by: Snare-Hawk#6331) */
+[class*="lineClamp2Plus-"] {
+  -webkit-line-clamp: unset !important;
+}

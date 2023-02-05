@@ -109,4 +109,4 @@ dist
 .tern-port
 
 .parcel-cache
-/*.asar
+/bundle
