@@ -29,7 +29,9 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 
 #### Replugged Asar Install
 
-- Download the .asar file from releases into your Replugged theme path. More details can be found [here](https://github.com/replugged-org/replugged#installing-plugins-and-themes).
+[![Install in Replugged](https://img.shields.io/badge/-Install%20in%20Replugged-blue?style=for-the-badge&logo=none)](https://replugged.dev/install?identifier=iblowmymind/material-madness&source=github)
+
+- Or, optionally, download the .asar file from releases into your Replugged theme path. More details can be found [here](https://github.com/replugged-org/replugged#installing-plugins-and-themes).
 
 #### (OLD) Replugged URL Install 
 
