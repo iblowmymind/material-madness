@@ -115,3 +115,14 @@ button[class*="button-38aScr lookBlank-3eh9lL colorBrand-3pXr91 sizeMin-1mJd1x g
 .carouselModal-1eUFoq.zoomedCarouselModalRoot-beLNhM.root-g14mjS.fullscreenOnMobile-ixj0e3 {
   background-color: transparent !important;
 }
+
+/* Video New Download Button + MediaPlayer UI Fix for Bubble Messages */
+.hoverButtonGroup-2yZIzC {
+  top: 8px;
+  right: 8px;
+  border-radius: 10px;
+}
+
+.videoControls-2NzHnF {
+  bottom: -6px;
+}
