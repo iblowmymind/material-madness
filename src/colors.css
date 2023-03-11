@@ -135,4 +135,44 @@
   color: var(--text-normal) !important;
 }
 
-/* Colors for Server Homes */
+/* Forum Header */
+.theme-dark {
+  --home-background: var(--background-primary);
+}
+
+/* Home Page */
+.theme-dark .container-2IKOsH,
+.theme-dark .header-3xB4vB {
+  background-color: var(--background-primary);
+}
+.theme-dark .emptyPage-2TGR7j,
+.theme-dark .scrollerContainer-y16Rs9 {
+  background-color: var(--background-primary);
+}
+.prompt-1sE27N {
+  background-color: #272726;
+}
+
+/* Browse Channels */
+.theme-dark .container-1um7CU {
+  background-color: var(--background-primary);
+}
+.channelRow-4X_3fi {
+  background-color: #272726;
+}
+
+/* App Directory */
+.theme-dark .directoryModal-YJsOMv {
+  background-color: var(--background-primary);
+}
+
+/* Explore Public Servers */
+.theme-dark .pageWrapper-2PwDoS {
+  background-color: var(--background-primary);
+}
+.search-25t1e9 .searchBox-31Zv9h {
+  background-color: var(--background-secondary);
+}
+.search-25t1e9 .searchBox-31Zv9h .searchBoxInput-3h4etz {
+  color: var(--text-normal);
+}
