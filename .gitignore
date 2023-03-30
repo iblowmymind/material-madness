@@ -1,6 +1,9 @@
 # No more archive
 archive/*
 
+# pnpm module data
+.npmrc
+
 # Logs
 logs
 *.log

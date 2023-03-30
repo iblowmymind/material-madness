@@ -44,6 +44,10 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 - Run `git clone https://github.com/iblowmymind/material-madness`
 - Enable the theme from Settings.
 
+### Vencord
+
+- Paste `https://iblowmymind.github.io/material-madness/src/main.css` under Vencord's settings, Themes tab. It should validate and load successfully.
+
 ### OpenAsar CSS Injection
 
 - Make sure you have the latest version of [OpenAsar](https://openasar.dev/) (at least `5d2bd94`), which you probably will as restarting should auto-update.
@@ -78,6 +82,11 @@ This is a mess. I only made this for me to use myself. Please spare yourself and
 - **I'm not sure if this works right now, so testing would be welcome, if you tried this and if it works (or not), feel free to create an issue!**
 
 ## Changelog
+
+- 1.7.1 (30/03/2023)
+  ```text
+  > Reverts hold back tears and pleading emojis
+  ```
 
 - 1.7.0 (11/03/2023)
   ```text
