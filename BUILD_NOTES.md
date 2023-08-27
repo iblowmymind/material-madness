@@ -5,8 +5,8 @@
 - Tag (and push) release:
 ```sh
 git add --all
-git commit -m "Update 1.7.3"
-git tag v1.7.2
+git commit -m "Update 1.7.4"
+git tag v1.7.4
 git push --tags
 git push
 ```
