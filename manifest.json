@@ -7,7 +7,7 @@
     "discordID": "966984739074490390",
     "github": "iblowmymind"
   },
-  "version": "1.7.4",
+  "version": "1.7.5",
   "updater": {
     "type": "github",
     "id": "iblowmymind/material-madness"

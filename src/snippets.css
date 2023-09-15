@@ -17,8 +17,8 @@
   width: 100%;
 }
 
-/* Username Background (Cozy variant) (by: chloe.#9079, modified to remove the :after: that included the ":") */
-.cozy-VmLDNB .headerText-2z4IhQ > span::before {
+/* (DISABLED) Username Background (Cozy variant) (by: chloe.#9079, modified to remove the :after: that included the ":") */
+/* .cozy-VmLDNB .headerText-2z4IhQ > span::before {
   content: "";
   width: calc(100% + 7px);
   height: 100%;
@@ -28,9 +28,8 @@
   position: absolute;
   top: 0;
   z-index: -1;
-  /* repairs left shift*/
   left: -3px;
-}
+} */
 /* repairs left shift */
 .cozy-VmLDNB .headerText-2z4IhQ > span {
   margin-left: 3px;

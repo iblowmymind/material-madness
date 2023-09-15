@@ -97,3 +97,7 @@
 .contents-3ca1mk.button-2fCJ0o.button-3BaQ4X {
   display: none;
 }
+[class*="buttons-"]>div[class*="expression-picker-chat-input-button"]:nth-child(3), /* gif */
+[class*="buttons-"]>div[class*="expression-picker-chat-input-button"]:nth-child(4) /* sticker */ {
+  display: none;
+}
